@@ -1,15 +1,22 @@
 # 读书笔记
 ## Big Data
 ### Storm
-
+standalone mode
 ### Hadoop
 
 ### Kafka
+console and java driver
+####坑
+
 
 ### Spark
 
 ### Apache Cassandra
 分布式Column-based Database
+####坑
+配置文件千万不要在前面加空格，否则报错
+
+## Visualization
 
 
 ## Data Visualization
