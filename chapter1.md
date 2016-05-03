@@ -18,7 +18,7 @@
 
 
 
-# Open Course
+# Open Courses
 
 
 
