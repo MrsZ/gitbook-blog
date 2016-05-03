@@ -6,6 +6,11 @@
 
 ### Kafka
 
+### Spark
+
+### Apache Cassandra
+分布式Column-based Database
+
 
 ## Data Visualization
 ### D3.js
