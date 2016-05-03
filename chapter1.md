@@ -7,6 +7,7 @@ Storm real-time processing cookbook(2013)
 
 
 ## Big Data
+大数据本质是掌握工具框架，入门之后还是靠语言积累，所以还是算法+数据结构
 ### Storm
 standalone mode
 ### Hadoop
