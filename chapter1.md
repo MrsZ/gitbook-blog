@@ -11,9 +11,10 @@
 **Storm Blueprints:Patterns for Distributed Real-time Computation (Packt, 2014)**
 综合评价：强烈推荐！！！Storm入门首选。唯一美中不足，缺失两章代码。
 简介：内容涉及方面与Storm Cookbook类似，但是对基础概念讲解相当透彻
-
+  - Chapter :介绍了Graph analysis的基本知识，
 
 **Graph Databases, 2nd Edition (O'Reilly, 2015)**
+- Chapter 2: Options for Storing Connected Data: Relational Database和普通的NoSQL的表之间都缺乏relationship (隐含)， Graph Database删除表示relationship
 
 **Cassandra Design Patterns （Packt, 2014）**
 
