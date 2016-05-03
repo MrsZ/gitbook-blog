@@ -7,4 +7,5 @@
 * [Skills Tree](skills_tree.md)
    * Apache Storm
    * Apache Kafka
+   * Apache Cassandra
 
