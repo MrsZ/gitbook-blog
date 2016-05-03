@@ -1,13 +1,29 @@
 # 读书笔记
+-----
+强烈推荐使用safaribookonline阅读
+-----
 
 Storm real-time processing cookbook(2013)  
-综合评价：以实例为主，对于概念的讲解一般，不太适合上手，但是其中的示例比较适合应用
-- Chapter 3: 通过
+综合评价：只能作为实例的参考书，让人又爱又恨。 $$3/5$$
+简介：以实例为主，不适合初学者上手，其中对于基本概念的讲解实在让人汗颜。有完整的代码示例。
+  - Chapter 3: 计算TF-IDF,作者希望通过此章介绍Trident(Storm的高级元语言)，但是除了对代码做了简单注释，对基本概念完全没有讲清楚,代码中混入了大量的Trident的复杂概念。并且除Trident编程之外，又混入了DRPC的知识，也没有讲解，让人不明所以.
+
+Storm Blueprints:Patterns for Distributed Real-time Computation (Packt, 2014)
+综合评价：强烈推荐！！！Storm入门首选。唯一美中不足，缺失两章代码。
+简介：内容涉及方面与Storm Cookbook类似，但是对基础概念讲解相当透彻
+
+
+Graph Databases, 2nd Edition
+
+Cassandra Design Patterns （Packt, 2014）
+
 
 
 
 ## Big Data
-大数据本质是掌握工具框架，入门之后还是靠语言积累，所以还是算法+数据结构
+大数据本质是掌握工具框架，入门之后还是靠语言积累，所以还是算法+数据结构。  
+所有大数据工具推荐学习顺序：  
+Standalone --> 运行实例 --> 修改实例 --> 开发实例 --> Cluster mode
 ### Storm
 Standalone mode
 Cluster mode
@@ -38,6 +54,10 @@ DataStax的cassandra core依赖项问题
 
 
 ### 经典论文
+
+
+## 有趣的项目
+Machine Learning预测《冰与火之歌》中的叛徒
 
 
 
