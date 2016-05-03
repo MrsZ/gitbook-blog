@@ -1,4 +1,7 @@
 # 读书笔记
+
+
+
 ## Big Data
 ### Storm
 standalone mode
@@ -7,6 +10,7 @@ standalone mode
 ### Kafka
 console and java driver
 ####坑
+DataStax的cassandra core依赖项问题
 
 
 ### Spark
