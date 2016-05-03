@@ -10,5 +10,4 @@
    * [Apache Cassandra](apache_cassandra.md)
    * [Apache Hadoop](apache_hadoop.md)
    * [Data Visualization](data_visualization.md)
-* [hackerrank problems](hackerrank_problems.md)
 
