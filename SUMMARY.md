@@ -8,4 +8,5 @@
    * Apache Storm
    * Apache Kafka
    * Apache Cassandra
+   * Apache Hadoop
 
