@@ -15,6 +15,7 @@
 
 **Graph Databases, 2nd Edition (O'Reilly, 2015)**
 - Chapter 2: Options for Storing Connected Data: Relational Database和普通的NoSQL的表之间都缺乏relationship (隐含)， Graph Database删除表示relationship
+- Chapter 3: Data Modeling with Graphs:
 
 **Cassandra Design Patterns （Packt, 2014）**
 
@@ -52,6 +53,26 @@ DataStax的cassandra core依赖项问题
 
 ### Mapbox
 优势：高精度， high resolution
+
+
+## Database
+### Graph Database
+Cypher: graph database query language  
+examples
+```
+(emil)<-[:KNOWS]-(jim)-[:KNOWS]->(ian)-[:KNOWS]->(emil)
+```
+```
+MATCH (a:Person {name:'Jim'})-[:KNOWS]->(b)-[:KNOWS]->(c),
+      (a)-[:KNOWS]->(c)
+RETURN b, c
+```
+```
+MATCH (a:Person)-[:KNOWS]->(b)-[:KNOWS]->(c), (a)-[:KNOWS]->(c)
+WHERE a.name = 'Jim'
+RETURN b, c
+```
+
 
 
 ### 经典论文
