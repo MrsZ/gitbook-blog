@@ -1,5 +1,9 @@
 # 读书笔记
 
+Storm real-time processing cookbook(2013)  
+综合评价：以实例为主，对于概念的讲解一般，不太适合上手，但是其中的示例比较适合应用
+- Chapter 3: 通过
+
 
 
 ## Big Data
@@ -38,6 +42,15 @@ DataStax的cassandra core依赖项问题
 
 
 # Open Courses
+网站
+- Udacity: 个人认为最适合入门的一套课程
+- edx：公开课鸽子王，课程长期跳票
+- Big Data University
+- Coursera: 整体课程偏理论，而且并不深入，实战内容较少
+- 慕课网
+- 麦子学院
+- 宅客学院
+- MIT opencourse
 
 
 
