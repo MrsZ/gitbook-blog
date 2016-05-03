@@ -7,6 +7,6 @@
 * [Skills Tree](skills_tree.md)
    * [Apache Storm](apache_storm.md)
    * [Apache Kafka](apache_kafka.md)
-   * Apache Cassandra
+   * [Apache Cassandra](apache_cassandra.md)
    * Apache Hadoop
 
