@@ -24,5 +24,5 @@
 
 
 # TODO
-- s3-file-server
-- MapReduce Design Pattern
+- [] s3-file-server
+- [] MapReduce Design Pattern
