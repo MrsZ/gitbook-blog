@@ -9,5 +9,5 @@
    * [Apache Kafka](apache_kafka.md)
    * [Apache Cassandra](apache_cassandra.md)
    * [Apache Hadoop](apache_hadoop.md)
-   * Data Visualization
+   * [Data Visualization](data_visualization.md)
 
