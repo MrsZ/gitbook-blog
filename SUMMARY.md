@@ -9,5 +9,4 @@
    * [Apache Kafka](apache_kafka.md)
    * [Apache Cassandra](apache_cassandra.md)
    * [Apache Hadoop](apache_hadoop.md)
-   * D3.js
 
