@@ -152,6 +152,10 @@ Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms
 ### **[DataMap](http://datamaps.github.io/)**
 a wrapper map library of d3.js. 主要用作生成动态地图，可以直接参考源码。
 
+
+### **[d3 mapbox.js example](http://bl.ocks.org/feomike/5967885)**
+an example which combines d3.js and mapbox.js
+
 # Online Courses
 免费收费课程
 - Udacity: 个人认为最适合入门的一套课程
