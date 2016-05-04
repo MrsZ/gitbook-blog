@@ -87,8 +87,7 @@ Machine Learning预测《冰与火之歌》中的叛徒
 
 
 
-# Open Courses
-网站
+# Online Courses
 - Udacity: 个人认为最适合入门的一套课程
 - edx：公开课鸽子王，课程长期跳票
 - Big Data University
@@ -98,6 +97,9 @@ Machine Learning预测《冰与火之歌》中的叛徒
 - 宅客学院
 - MIT opencourse
 - 极客学院： 课程较新，但是讲师的水平和普通话水平参差不齐。但整体来说一年花260元买个会员还是利大于弊的。
+- Datastax: 主讲Cassandra，以练习为主
+- safaribookonline：
+- 学堂在线：以清华课程为主，课程涉及内容较为细致，但是视频加载速度不太理想
 
 
 
