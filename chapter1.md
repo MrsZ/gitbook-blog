@@ -113,7 +113,12 @@ introduce four NRT(Near Real-Time) architecutre of hadoop
 
 ###**[How Spotify Scales Apache Storm](https://labs.spotify.com/2015/01/05/how-spotify-scales-apache-storm/)**
 High-level description of Storm Scale. 主要涉及了大量的实际优化操作。
-- OutputCollector in Storm is not thread-safe
+- Source and Sink Tuning
+  - Kafka Tuning
+  - Cassandra Tuning
+- Concurrency Issues
+  - OutputCollector in Storm is not thread-safe
+  - Parallelism Tuning
 - Caching for Bolts: Guava's [Expirable Cache](https://code.google.com/p/guava-libraries/wiki/CachesExplained)
 
 ###**[Scaling Apache Storm - Strata + Hadoop World 2014](http://www.slideshare.net/ptgoetz/scaling-apache-storm-strata-hadoopworld-2014?qid=19b9de2b-175b-415e-94c8-7a537d8c2a9a&v=qf1&b=&from_search=2)**
@@ -141,7 +146,6 @@ Read 1 MB sequentially from disk    20,000,000   ns   20,000 us   20 ms  80x mem
 Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms  
 
 
-### **[ENGINEERING INTELLIGENCE THROUGH DATA VISUALIZATION AT UBER](https://eng.uber.com/data-viz-intel/)**
 
 ### **[CALCULATING A NETWORK MAP BY ANALYZING TWEETS](http://mark-kay.net/2014/01/15/calculating-a-network-map-by-analyzing-tweets/)**
 
@@ -155,6 +159,10 @@ a wrapper map library of d3.js. 主要用作生成动态地图，可以直接参
 
 ### **[d3 mapbox.js example](http://bl.ocks.org/feomike/5967885)**
 an example which combines d3.js and mapbox.js
+
+### **[How does a relational database work](http://coding-geek.com/how-databases-work/)**
+中文译文： http://blog.jobbole.com/100349/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io  
+详细介绍了关系型数据库的原理
 
 # Online Courses
 免费收费课程
