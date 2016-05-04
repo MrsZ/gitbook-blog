@@ -30,6 +30,7 @@ Standalone --> 运行实例 --> 修改实例 --> 开发实例 --> Cluster mode
 Standalone mode
 Cluster mode
 ### Hadoop
+####Apache Oozie
 
 ### Kafka
 console and java driver
@@ -43,6 +44,8 @@ DataStax的cassandra core依赖项问题
 分布式Column-based Database
 ####坑
 配置文件千万不要在前面加空格，否则报错
+
+
 
 ## Visualization
 
@@ -86,7 +89,7 @@ Machine Learning预测《冰与火之歌》中的叛徒
 
 # Blog
 
-Analyzing Twitter Data with Apache Hadoop
+**Analyzing Twitter Data with Apache Hadoop**
 [How-to: Analyze Twitter Data with Apache Hadoop](https://blog.cloudera.com/blog/2012/09/analyzing-twitter-data-with-hadoop/)
 [Analyzing Twitter Data with Apache Hadoop, Part 2: Gathering Data with Flume](http://blog.cloudera.com/blog/2012/10/analyzing-twitter-data-with-hadoop-part-2-gathering-data-with-flume/)
 [Analyzing Twitter Data with Apache Hadoop, Part 3: Querying Semi-structured Data with Apache Hive](http://blog.cloudera.com/blog/2012/11/analyzing-twitter-data-with-hadoop-part-3-querying-semi-structured-data-with-hive/)
