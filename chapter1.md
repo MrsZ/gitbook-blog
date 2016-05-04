@@ -145,6 +145,12 @@ Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms
 
 ### **[CALCULATING A NETWORK MAP BY ANALYZING TWEETS](http://mark-kay.net/2014/01/15/calculating-a-network-map-by-analyzing-tweets/)**
 
+### **[GENERATING A NETWORK GRAPH OF TWITTER FOLLOWERS USING PYTHON AND NETWORKX](http://mark-kay.net/2014/08/15/network-graph-of-twitter-followers/)**
+
+### **[DETECT VEHICLES FROM A CCTV IMAGE](http://104.155.47.149:5000/http://mark-kay.net/2014/06/24/detecting-vehicles-cctv-image/)**
+
+### **[DataMap](http://datamaps.github.io/)**
+a wrapper map library of d3.js. 主要用作生成动态地图，可以直接参考源码。
 
 # Online Courses
 免费收费课程
