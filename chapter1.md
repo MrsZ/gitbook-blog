@@ -48,7 +48,10 @@ DataStax的cassandra core依赖项问题
 ### Apache Flume
 
 
-## Visualization
+## DevOps
+### Vagrant
+### Docker
+### Puppet
 
 
 ## Data Visualization
@@ -84,19 +87,28 @@ RETURN b, c
 ### 经典论文
 
 
-## 有趣的项目
+## 有趣的项目: https://github.com/cloudera/cdh-twitter-example
 Machine Learning预测《冰与火之歌》中的叛徒
 
 
 # Blog
 
-**Analyzing Twitter Data with Apache Hadoop**
+###[]**Analyzing Twitter Data with Apache Hadoop**
 [How-to: Analyze Twitter Data with Apache Hadoop](https://blog.cloudera.com/blog/2012/09/analyzing-twitter-data-with-hadoop/)
 [Analyzing Twitter Data with Apache Hadoop, Part 2: Gathering Data with Flume](http://blog.cloudera.com/blog/2012/10/analyzing-twitter-data-with-hadoop-part-2-gathering-data-with-flume/)
 [Analyzing Twitter Data with Apache Hadoop, Part 3: Querying Semi-structured Data with Apache Hive](http://blog.cloudera.com/blog/2012/11/analyzing-twitter-data-with-hadoop-part-3-querying-semi-structured-data-with-hive/)
+  **[Source Code](https://github.com/cloudera/cdh-twitter-example)**: https://github.com/cloudera/cdh-twitter-example
+![](images/twitter.png)
+Flume pipeline
+![](images/fig.png)
 
 
-
+###**[Architectural Patterns for Near Real-Time Data Processing with Apache Hadoop](http://blog.cloudera.com/blog/2015/06/architectural-patterns-for-near-real-time-data-processing-with-apache-hadoop/)**
+introduce four NRT(Near Real-Time) architecutre of hadoop
+- Stream ingestion
+- Near Real-Time (NTR) Event Processing with External Context
+- NRT Event Partitioned Processing
+- Compex Topology for Aggregations or ML
 
 # Online Courses
 免费收费课程
