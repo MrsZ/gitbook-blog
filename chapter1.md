@@ -15,7 +15,7 @@
 
 **Graph Databases, 2nd Edition (O'Reilly, 2015)**
 - Chapter 2: Options for Storing Connected Data: Relational Database和普通的NoSQL的表之间都缺乏relationship (隐含)， Graph Database删除表示relationship
-- Chapter 3: Data Modeling with Graphs: 简介Cypher(Graph query language)
+- Chapter 3: Data Modeling with Graphs: 简介Cypher(Graph query language). Compare Relational database (tables, normalization, denormalization) and graph modeling
 
 **Cassandra Design Patterns （Packt, 2014）**
 
@@ -57,6 +57,7 @@ DataStax的cassandra core依赖项问题
 
 ## Database
 ### Graph Database
+#### Cypher
 Cypher: graph database query language  
 examples
 ```
@@ -73,6 +74,7 @@ WHERE a.name = 'Jim'
 RETURN b, c
 ```
 
+#### Neo4j
 
 
 ### 经典论文
