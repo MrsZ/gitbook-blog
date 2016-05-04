@@ -110,6 +110,12 @@ introduce four NRT(Near Real-Time) architecutre of hadoop
 - NRT Event Partitioned Processing
 - Compex Topology for Aggregations or ML
 
+
+###**[How Spotify Scales Apache Storm](https://labs.spotify.com/2015/01/05/how-spotify-scales-apache-storm/)**
+High-level description of Storm Scale. 主要涉及了大量的实际优化操作。
+- OutputCollector in Storm is not thread-safe
+- Caching for Bolts: Guava's [Expirable Cache](https://code.google.com/p/guava-libraries/wiki/CachesExplained)
+
 # Online Courses
 免费收费课程
 - Udacity: 个人认为最适合入门的一套课程
