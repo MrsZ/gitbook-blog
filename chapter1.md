@@ -29,22 +29,23 @@ Standalone --> 运行实例 --> 修改实例 --> 开发实例 --> Cluster mode
 ### Storm
 Standalone mode
 Cluster mode
-### Hadoop
+### Apache Hadoop
 ####Apache Oozie
 
-### Kafka
+### Apache Kafka
 console and java driver
 ####坑
 DataStax的cassandra core依赖项问题
 
 
-### Spark
+### Apache Spark
 
 ### Apache Cassandra
 分布式Column-based Database
 ####坑
 配置文件千万不要在前面加空格，否则报错
 
+### Apache Flume
 
 
 ## Visualization
