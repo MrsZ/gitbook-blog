@@ -116,6 +116,30 @@ High-level description of Storm Scale. 主要涉及了大量的实际优化操�
 - OutputCollector in Storm is not thread-safe
 - Caching for Bolts: Guava's [Expirable Cache](https://code.google.com/p/guava-libraries/wiki/CachesExplained)
 
+###**[Scaling Apache Storm - Strata + Hadoop World 2014](http://www.slideshare.net/ptgoetz/scaling-apache-storm-strata-hadoopworld-2014?qid=19b9de2b-175b-415e-94c8-7a537d8c2a9a&v=qf1&b=&from_search=2)**
+提高Storm performance的方法
+- 分开考虑CPU,I/O，Disk的性能
+- Key Settings
+  - topology.max.spout.pending: when reached, Storm will temporaily stop emitting data from Spout(s)
+  - topology.message.timeout.secs: bottleneck solution, increase timeout and/or inrease component parallelism
+- Externalize Configuration: no hard code for number of parallelism, props.get("num.workers")
+
+###**[Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)**
+L1 cache reference                           0.5 ns  
+Branch mispredict                            5   ns  
+L2 cache reference                           7   ns                      14x L1 cache  
+Mutex lock/unlock                           25   ns  
+Main memory reference                      100   ns                      20x L2 cache, 200x L1 cache  
+Compress 1K bytes with Zippy             3,000   ns        3 us  
+Send 1K bytes over 1 Gbps network       10,000   ns       10 us  
+Read 4K randomly from SSD*             150,000   ns      150 us          ~1GB/sec SSD  
+Read 1 MB sequentially from memory     250,000   ns      250 us  
+Round trip within same datacenter      500,000   ns      500 us  
+Read 1 MB sequentially from SSD*     1,000,000   ns    1,000 us    1 ms  ~1GB/sec SSD, 4X memory  
+Disk seek                           10,000,000   ns   10,000 us   10 ms  20x datacenter roundtrip  
+Read 1 MB sequentially from disk    20,000,000   ns   20,000 us   20 ms  80x memory, 20X SSD  
+Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms  
+
 # Online Courses
 免费收费课程
 - Udacity: 个人认为最适合入门的一套课程
