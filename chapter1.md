@@ -143,6 +143,9 @@ Send packet CA->Netherlands->CA    150,000,000   ns  150,000 us  150 ms
 
 ### **[ENGINEERING INTELLIGENCE THROUGH DATA VISUALIZATION AT UBER](https://eng.uber.com/data-viz-intel/)**
 
+### **[CALCULATING A NETWORK MAP BY ANALYZING TWEETS](http://mark-kay.net/2014/01/15/calculating-a-network-map-by-analyzing-tweets/)**
+
+
 # Online Courses
 免费收费课程
 - Udacity: 个人认为最适合入门的一套课程
