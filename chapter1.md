@@ -47,6 +47,11 @@ DataStax的cassandra core依赖项问题
 
 ### Apache Flume
 
+### Google Cloud Dataflow
+
+### Apache Mesos
+Distributed resource management tool. 
+
 
 ## DevOps
 ### Vagrant
@@ -163,6 +168,10 @@ an example which combines d3.js and mapbox.js
 ### **[How does a relational database work](http://coding-geek.com/how-databases-work/)**
 中文译文： http://blog.jobbole.com/100349/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io  
 详细介绍了关系型数据库的原理
+
+
+### **[Building an ETL pipeline from scratch in 30 minutes](https://www.youtube.com/watch?v=hjwKKgWbMF0)**
+Google Cloud Dataflow的视频，简述了Python SDK的应用。用pipeline (|) 来传输数据，效果类似Storm+Hadoop的编程模型。
 
 # Online Courses
 免费收费课程
