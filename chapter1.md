@@ -204,8 +204,8 @@ Google Cloud Dataflow的视频，简述了Python SDK的应用。用pipeline (|) 
 - 学堂在线：以清华课程为主，课程涉及内容较为细致，但是视频加载速度不太理想
 - [Hortonwork](http://hortonworks.com/tutorials/) 系列课程：
 
-
-
+## 视频教程
+### Learning Path: Introduction to Flask (O'Reilly, 2015)
 
 # TODO
 - [] s3-file-server
