@@ -96,6 +96,11 @@ RETURN b, c
 #### Neo4j
 
 
+## max-min fairness
+DRF(Domainant Resource Fairness)
+sharing Incentive, strategy Proofness, Envy Freeness, Pareto Efficiency
+
+
 ### 经典论文
 
 
@@ -120,7 +125,7 @@ introduce four NRT(Near Real-Time) architecutre of hadoop
 - Stream ingestion
 - Near Real-Time (NTR) Event Processing with External Context
 - NRT Event Partitioned Processing
-- Compex Topology for Aggregations or ML
+- Complex Topology for Aggregations or ML
 
 
 ###**[How Spotify Scales Apache Storm](https://labs.spotify.com/2015/01/05/how-spotify-scales-apache-storm/)**
@@ -179,6 +184,9 @@ an example which combines d3.js and mapbox.js
 
 ### **[Building an ETL pipeline from scratch in 30 minutes](https://www.youtube.com/watch?v=hjwKKgWbMF0)**
 Google Cloud Dataflow的视频，简述了Python SDK的应用。用pipeline (|) 来传输数据，效果类似Storm+Hadoop的编程模型。
+
+### **[ZooKeeper简介](http://www.cnblogs.com/loveis715/p/5185796.html)**
+
 
 # Online Courses
 免费收费课程
