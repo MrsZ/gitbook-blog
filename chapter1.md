@@ -50,8 +50,12 @@ DataStax的cassandra core依赖项问题
 ### Google Cloud Dataflow
 
 ### Apache Mesos
-Distributed resource management tool. 
+Mesos: An open-source cluster manager. Mesos is a cluster manager aiming for improved resource utilization by dynamically sharing resources among multiple frameworks.  
+提高资源利用率  
+Shared Cluster
+![](images/8762OS_01_01.jpg)
 
+### Apache Hama
 
 ## DevOps
 ### Vagrant
