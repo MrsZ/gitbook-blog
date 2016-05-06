@@ -94,7 +94,21 @@ RETURN b, c
 ```
 
 #### Neo4j
+configuration on vagrant. https://github.com/bretcope/vagrant-neo4j  
 
+#####py2neo
+```python
+from py2neo import authenticate, Graph, Node
+// authorize the client
+authenticate("localhost:7474", "neo4j", "password")
+graph = Graph()
+// clear the database first
+graph.delete_all()
+// create Node
+nicole = Node("Person", name="Nicole", age=24)
+// add node to the graph
+graph.create(nicole)
+```
 
 ## max-min fairness
 DRF(Domainant Resource Fairness)
@@ -206,6 +220,12 @@ Google Cloud Dataflow的视频，简述了Python SDK的应用。用pipeline (|) 
 
 ## 视频教程
 ### Learning Path: Introduction to Flask (O'Reilly, 2015)
+
+### BUILDING WEB APPS USING FLASK AND NEO4J (O'Reilly, 2015)
+neo4j
+flask, py2neo, passlib, bcrypt
+
+
 
 # TODO
 - [] s3-file-server
