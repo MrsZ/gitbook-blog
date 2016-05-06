@@ -99,15 +99,19 @@ configuration on vagrant. https://github.com/bretcope/vagrant-neo4j
 #####py2neo
 ```python
 from py2neo import authenticate, Graph, Node
-// authorize the client
+# authorize the client
 authenticate("localhost:7474", "neo4j", "password")
 graph = Graph()
-// clear the database first
+# clear the database first
 graph.delete_all()
-// create Node
+# create Node
 nicole = Node("Person", name="Nicole", age=24)
-// add node to the graph
+# add node to the graph
 graph.create(nicole)
+# create another node
+bar = Node("Bar", name="Kingfish")
+graph.create(bar)
+
 ```
 
 ## max-min fairness
