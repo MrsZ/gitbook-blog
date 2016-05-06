@@ -97,6 +97,7 @@ RETURN b, c
 configuration on vagrant. https://github.com/bretcope/vagrant-neo4j  
 
 #####py2neo
+Create nodes and relationship
 ```python
 from py2neo import authenticate, Graph, Node
 # authorize the client
@@ -111,6 +112,24 @@ graph.create(nicole)
 # create another node
 bar = Node("Bar", name="Kingfish")
 graph.create(bar)
+# Create relationship
+from py2neo import Relationship
+rel = Relationship(nicole, "LIKES", bar, since=2014)
+# add to graph
+graph.create(rel)
+```
+
+merge node
+```python
+# will create a new node with the same name nicole
+nicole = Node("Person", name="Nicole", age=24)
+graph.create(nicole)
+graph.delete(nicole)
+
+# will not create a new node
+nicole = graph.merge_one("Person", "name", "Nicole")
+graph.create(nicole)
+
 
 ```
 
