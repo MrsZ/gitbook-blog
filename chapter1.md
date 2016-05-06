@@ -119,7 +119,8 @@ rel = Relationship(nicole, "LIKES", bar, since=2014)
 graph.create(rel)
 ```
 
-merge node
+merge node  
+merge_one function is used to create node when you do not know whether it exist in the database
 ```python
 # will create a new node with the same name nicole
 nicole = Node("Person", name="Nicole")
@@ -127,11 +128,17 @@ graph.create(nicole)
 graph.delete(nicole)
 
 # will not create a new node
-nicole = Node("Person", name="Nicole", age=24)
 nicole = graph.merge_one("Person", "name", "Nicole")
 graph.create(nicole)
 
+# create a new node kenny
+kenny = graph.merge_one("Person", "name", "Kenny")
+graph.create(kenny)
 
+# if the node not exist, the function will return none
+# thus kingfish == none, and graph.create function will return errors
+kingfish = graph.find_one("Bar", "name", "Kingfish")
+graph.create(kingfish)
 
 ```
 
@@ -226,6 +233,8 @@ Google Cloud Dataflow的视频，简述了Python SDK的应用。用pipeline (|) 
 
 ### **[ZooKeeper简介](http://www.cnblogs.com/loveis715/p/5185796.html)**
 
+### **[How-to: Use Apache ZooKeeper to Build Distributed Apps (and Why)](http://blog.cloudera.com/blog/2013/02/how-to-use-apache-zookeeper-to-build-distributed-apps-and-why/)**
+zookeeper基本原理， 性能问题， 基本command-line命令
 
 # Online Courses
 免费收费课程
