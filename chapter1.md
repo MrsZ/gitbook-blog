@@ -122,13 +122,15 @@ graph.create(rel)
 merge node
 ```python
 # will create a new node with the same name nicole
-nicole = Node("Person", name="Nicole", age=24)
+nicole = Node("Person", name="Nicole")
 graph.create(nicole)
 graph.delete(nicole)
 
 # will not create a new node
+nicole = Node("Person", name="Nicole", age=24)
 nicole = graph.merge_one("Person", "name", "Nicole")
 graph.create(nicole)
+
 
 
 ```
