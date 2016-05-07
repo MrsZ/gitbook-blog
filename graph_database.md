@@ -216,5 +216,17 @@ class User:
         user = self.find()
         post = graph.find_one("Post", "id", post_id)
         graph.create_unique(Relationship(user, "LIKES", post))
+```
 
+#### Profile
+```python
+    def recent_posts(self, n):
+        query = """
+        MATCH (user:User)-[:PUBLISHED]->(post:Post)<-[:TAGGED]-(tag:Tag)
+        WHERE user.username = {username}
+        RETURN post, COLLECT(tag.name) AS tags
+        ORDER BY post.timestamp DESC LIMIT {n}
+        """
+
+        return graph.cypher.execute(query, username=self.username, n=n)
 ```
