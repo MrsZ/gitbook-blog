@@ -159,7 +159,7 @@ rel = Relationship(kenny, "LIKES", kingfish)
 graph.create_unique(rel)
 ```
 cypher query  
-based on Movie example
+delete all before data and use Movie example
 ```python
 
 ```
