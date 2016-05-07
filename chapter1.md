@@ -158,6 +158,7 @@ graph.create_unique(rel)
 rel = Relationship(kenny, "LIKES", kingfish)
 graph.create_unique(rel)
 ```
+
 cypher query  
 delete all before data and use Movie example
 ```sql
@@ -173,6 +174,8 @@ data[0]
 data[0].name
 data[0]["name"]
 ```
+
+Parameterized Cypher
 
 ## max-min fairness
 DRF(Domainant Resource Fairness)
