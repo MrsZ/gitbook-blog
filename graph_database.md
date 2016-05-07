@@ -220,6 +220,9 @@ class User:
 
 #### Profile
 ```python
+class User:
+    ...
+    ...
     def recent_posts(self, n):
         query = """
         MATCH (user:User)-[:PUBLISHED]->(post:Post)<-[:TAGGED]-(tag:Tag)
