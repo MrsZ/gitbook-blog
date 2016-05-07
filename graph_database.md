@@ -233,3 +233,9 @@ class User:
 
         return graph.cypher.execute(query, username=self.username, n=n)
 ```
+
+#### Recommending Similar Users
+
+```python
+
+```
