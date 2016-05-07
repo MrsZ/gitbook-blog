@@ -1,7 +1,7 @@
 # Graph Database
 
-### Graph Database
-#### Cypher
+
+## Cypher
 Cypher: graph database query language  
 examples
 ```
@@ -18,10 +18,10 @@ WHERE a.name = 'Jim'
 RETURN b, c
 ```
 
-#### Neo4j
+## Neo4j
 configuration on vagrant. https://github.com/bretcope/vagrant-neo4j  
 
-#####py2neo
+###py2neo
 Create nodes and relationship
 ```python
 from py2neo import authenticate, Graph, Node
@@ -116,4 +116,35 @@ Set constraint and Index
 graph.cypher.execute("CREATE CONSTRAINT ON {n:User} ASSER n.username IS UNIQUE")
 graph.cypher.execute("CREATE CONSTRAINT ON {n:Post} ASSER n.username IS UNIQUE")
 graph.cypher.execute("CREATE CONSTRAINT ON {n:Tag} ASSER n.username IS UNIQUE")
+```
+
+### Use Case
+
+#### Register and Login
+每个用户是一个Node, node的label为User, 有两个属性username和password, password需要加密
+```python
+class User:
+
+    def __init__(self, username):
+        self.username = username
+
+    def find(self):
+        user = graph.find_one("User", "username", self.username)
+        return user
+
+    def register(self, password):
+        if not self.find():
+            user = Node("User", username=self.username, password=bcrypt.encrypt(password))
+            graph.create(user)
+            return True
+
+        return False
+
+    def verify_password(self, password):
+        user = self.find()
+
+        if not user:
+            return False
+
+        return bcrypt.verify(password, user["password"])
 ```
