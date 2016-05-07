@@ -205,3 +205,16 @@ def todays_recent_posts(n):
     today = datetime.now().strftime("%F")
     return graph.cypher.execute(query, today=today, n=n)
 ```
+
+#### Like A Post
+
+```python
+class User:
+    ...
+    ...
+     def like_post(self, post_id):
+        user = self.find()
+        post = graph.find_one("Post", "id", post_id)
+        graph.create_unique(Relationship(user, "LIKES", post))
+
+```
