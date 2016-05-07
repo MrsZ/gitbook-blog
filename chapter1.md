@@ -177,9 +177,20 @@ data[0]["name"]
 
 Parameterized Cypher
 ```python
->>> query = "MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.title = {movie} RETURN p.name"
->>> graph.cypher.execute(query, {"movie": "The Matrix"})
+query = "MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.title = {movie} RETURN p.name"
+graph.cypher.execute(query, {"movie": "The Matrix"})
+```
 
+Graph Versus Tabular Cypher
+```python
+data = graph.cypher.execute("MATCH (p:Person)-[:PRODUCED]->(m:Movie) RETURN p, m")
+```
+
+Set constraint
+```python
+graph.cypher.execute("CREATE CONSTRAINT ON {n:User} ASSER n.username IS UNIQUE")
+graph.cypher.execute("CREATE CONSTRAINT ON {n:Post} ASSER n.username IS UNIQUE")
+graph.cypher.execute("CREATE CONSTRAINT ON {n:Tag} ASSER n.username IS UNIQUE")
 ```
 
 ## max-min fairness
