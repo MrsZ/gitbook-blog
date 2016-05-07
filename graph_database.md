@@ -120,7 +120,7 @@ graph.cypher.execute("CREATE CONSTRAINT ON {n:Tag} ASSER n.username IS UNIQUE")
 
 ### Use Case
 
-#### Register and Login
+#### Register and Login Model
 每个用户是一个Node, node的label为User, 有两个属性username和password, password需要加密
 ```python
 class User:
