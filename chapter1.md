@@ -176,6 +176,11 @@ data[0]["name"]
 ```
 
 Parameterized Cypher
+```python
+>>> query = "MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WHERE m.title = {movie} RETURN p.name"
+>>> graph.cypher.execute(query, {"movie": "The Matrix"})
+
+```
 
 ## max-min fairness
 DRF(Domainant Resource Fairness)
