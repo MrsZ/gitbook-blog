@@ -10,5 +10,5 @@
    * [Apache Cassandra](apache_cassandra.md)
    * [Apache Hadoop](apache_hadoop.md)
    * [Data Visualization](data_visualization.md)
-   * Graph Database
+   * [Graph Database](graph_database.md)
 
