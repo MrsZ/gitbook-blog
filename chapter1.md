@@ -160,8 +160,18 @@ graph.create_unique(rel)
 ```
 cypher query  
 delete all before data and use Movie example
+```sql
+MATCH (p:Person)-[:PRODUCED]->(m:Movie)
+RETURN p.name AS name, m.title AS movie
+```
 ```python
-
+data = graph.cypher.execute("MATCH (p:Person)-[:PRODUCED]->(m:Movie) RETURN p.name AS name, m.te AS movie")
+type(data)
+type(data[0])
+data
+data[0]
+data[0].name
+data[0]["name"]
 ```
 
 ## max-min fairness
