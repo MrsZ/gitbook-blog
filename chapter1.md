@@ -142,6 +142,28 @@ graph.create(kingfish)
 
 ```
 
+Merge relationships
+```python
+nicole = graph.find_one("Person", "name", "Nicole")
+kenny = graph.find_one("Person", "name", "Kenny")
+kingfish = graph.find_one("Bar", "name", "Kingfish")
+
+# will create a new relationship
+rel = Relationship(nicole, "LIKES", kingfish)
+graph.create(rel)
+
+# will only create one relationship
+rel = Relationship(kenny, "LIKES", kingfish)
+graph.create_unique(rel)
+rel = Relationship(kenny, "LIKES", kingfish)
+graph.create_unique(rel)
+```
+cypher query  
+based on Movie example
+```python
+
+```
+
 ## max-min fairness
 DRF(Domainant Resource Fairness)
 sharing Incentive, strategy Proofness, Envy Freeness, Pareto Efficiency
