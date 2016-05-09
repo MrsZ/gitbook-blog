@@ -193,6 +193,14 @@ Google Cloud Dataflow的视频，简述了Python SDK的应用。用pipeline (|) 
 ### **[How-to: Use Apache ZooKeeper to Build Distributed Apps (and Why)](http://blog.cloudera.com/blog/2013/02/how-to-use-apache-zookeeper-to-build-distributed-apps-and-why/)**
 zookeeper基本原理， 性能问题， 基本command-line命令
 
+
+### **[Process a Million Songs with Apache Pig](http://blog.cloudera.com/blog/2012/08/process-a-million-songs-with-apache-pig/)**
+
+### **[Introducing Apache Arrow: A Fast, Interoperable In-Memory Columnar Data Structure Standard](http://blog.cloudera.com/blog/2016/02/introducing-apache-arrow-a-fast-interoperable-in-memory-columnar-data-structure-standard/)**
+
+### **[Microservices in Practice: From Architecture to Deployment](https://dzone.com/articles/microservices-in-practice-1)**
+
+### 
 # Online Courses
 免费收费课程
 - Udacity: 个人认为最适合入门的一套课程
@@ -215,6 +223,7 @@ zookeeper基本原理， 性能问题， 基本command-line命令
 ### BUILDING WEB APPS USING FLASK AND NEO4J (O'Reilly, 2015)
 neo4j
 flask, py2neo, passlib, bcrypt
+
 
 
 
