@@ -73,6 +73,28 @@ Shared Cluster
 ### Mapbox
 优势：高精度， high resolution
 
+### Leaflet.js
+画圆  
+可以更改坐标和radius  
+http://stackoverflow.com/questions/22467177/draw-a-circle-of-constant-size-for-all-zoom-levels-leaflet-js
+
+删除圆
+
+add button  
+基于L.Control.extend函数，生成button。  
+https://github.com/CliffCloud/Leaflet.EasyButton  
+简化版 https://github.com/jerroydmoore/leaflet-button/blob/master/L.Control.Button.js  
+最简版本 http://www.coffeegnome.net/control-button-leaflet/
+
+popup with jquery  
+http://stackoverflow.com/questions/1328723/how-to-generate-a-simple-popup-using-jquery  
+http://jsfiddle.net/SRw67/  
+
+popup with css  
+改变css style, display为inline或者None  
+http://stackoverflow.com/questions/9220141/how-to-position-a-popup-div-based-on-the-position-of-where-the-cursor-clicks
+https://jsfiddle.net/hwsamuel/fsp5pgqw/  
+
 
 ## Database
 ### Graph Database
@@ -97,6 +119,8 @@ RETURN b, c
 configuration on vagrant. https://github.com/bretcope/vagrant-neo4j  
 
 #####py2neo
+
+
 
 
 ## max-min fairness
@@ -200,7 +224,10 @@ zookeeper基本原理， 性能问题， 基本command-line命令
 
 ### **[Microservices in Practice: From Architecture to Deployment](https://dzone.com/articles/microservices-in-practice-1)**
 
-### 
+### **[秒杀系统架构分析与实战](http://www.importnew.com/18920.html)**
+
+
+### **[Building Fast Client-side Searches](http://code.flickr.net/2009/03/18/building-fast-client-side-searches/)**
 # Online Courses
 免费收费课程
 - Udacity: 个人认为最适合入门的一套课程
