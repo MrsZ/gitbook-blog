@@ -95,6 +95,11 @@ popup with css
 http://stackoverflow.com/questions/9220141/how-to-position-a-popup-div-based-on-the-position-of-where-the-cursor-clicks
 https://jsfiddle.net/hwsamuel/fsp5pgqw/  
 
+css垂直居中  
+https://www.qianduan.net/css-to-achieve-the-vertical-center-of-the-five-kinds-of-methods/
+
+文字图片水平居中  
+```text-align:center```
 
 ## Database
 ### Graph Database
