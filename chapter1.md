@@ -236,7 +236,16 @@ zookeeper基本原理， 性能问题， 基本command-line命令
 ### **[秒杀系统架构分析与实战](http://www.importnew.com/18920.html)**
 
 
-### **[Building Fast Client-side Searches](http://code.flickr.net/2009/03/18/building-fast-client-side-searches/)**
+
+
+### **[Building Fast Client-side Searches](http://code.flickr.net/2009/03/18/building-fast-client-side-searches/)**  
+
+### **[MongoDB Manual](https://docs.mongodb.com/manual/introduction/)**
+
+
+### **[附近地点搜索 面试题](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/%E9%99%84%E8%BF%91%E5%9C%B0%E7%82%B9%E6%90%9C%E7%B4%A2.md)**
+MongoDB的 map index功能
+
 # Online Courses
 免费收费课程
 - Udacity: 个人认为最适合入门的一套课程
