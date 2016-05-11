@@ -101,6 +101,10 @@ https://www.qianduan.net/css-to-achieve-the-vertical-center-of-the-five-kinds-of
 文字图片水平居中  
 ```text-align:center```
 
+jquert ui create tab  
+http://jsfiddle.net/queryj/CnEUh/1/  
+http://jsfiddle.net/yeoupooh/4tchxazf/
+
 ## Database
 ### Graph Database
 #### Cypher
