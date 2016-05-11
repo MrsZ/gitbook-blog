@@ -87,7 +87,7 @@ https://github.com/CliffCloud/Leaflet.EasyButton
 最简版本 http://www.coffeegnome.net/control-button-leaflet/
 
 popup with jquery  
-http://stackoverflow.com/questions/1328723/how-to-generate-a-simple-popup-using-jquery  
+http://stackov'erflow.com/questions/1328723/how-to-generate-a-simple-popup-using-jquery  
 http://jsfiddle.net/SRw67/  
 
 popup with css  
