@@ -14,7 +14,9 @@ Clear system logs
 cat /dev/null > /path/to/logfile
 ```
 
+host files
 
+environment variable
 
 # Concepts
 
@@ -23,7 +25,5 @@ cat /dev/null > /path/to/logfile
 
 # Tools
 
-ncdu: https://dev.yorhel.nl/ncdu
-
-
+ncdu: [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu)
 
