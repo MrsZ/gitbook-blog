@@ -14,6 +14,10 @@
   * [Data Visualization](data_visualization.md)
   * [Graph Database](graph_database.md)
 
+## Database
+
+* [MySQL](database/mysql.md)
+
 ## Programming
 
 * [Overview](programming/overview.md)
@@ -33,6 +37,7 @@
 * [AWS](devops/aws.md)
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
+* Kubernetes
 
 ## System Design
 

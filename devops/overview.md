@@ -29,9 +29,25 @@ dash/hls
 
 # DNS
 
+records type:A, CNAME
+
+# Load Balancer
+
+nginx 
+
+traefik
+
 # Service Discovery
 
+zookeeper
+
+ectd
+
+consul
+
 # Service Mesh
+
+Istio
 
 # IaaS
 
@@ -53,9 +69,7 @@ Dynamic page: add more instance
 
 Database: horizon scale, verticall scale
 
-
-
 # API Gateway
 
-
+Kong
 
