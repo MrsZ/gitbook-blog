@@ -28,7 +28,7 @@
 * [Overview](devops/overview.md)
 * [AWS](devops/aws.md)
 * Docker
-* Linux Command
+* [Linux Command](devops/linux-command.md)
 
 ## System Design
 
