@@ -9,5 +9,25 @@
 * Git
 * Kubernetes
 
+# CI
+
+Jenkins
+
+Gitlab CI
+
+example: implement a CI with Python in 500 lines  
+
+http://aosabook.org/en/500L/a-continuous-integration-system.html
+
+
+
+# Media Server
+
+DRM
+
+Wowza
+
+dash/hls
+
 
 
