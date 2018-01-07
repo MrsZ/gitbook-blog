@@ -21,7 +21,7 @@ example: implement a CI with Python in 500 lines
 
 # Media Server
 
-DRM
+DRM: encrypt real stream
 
 Wowza
 
@@ -29,13 +29,19 @@ dash/hls
 
 # DNS
 
-
-
 # Service Discovery
-
-
 
 # Service Mesh
 
 
+
+# IaaS
+
+# Scale
+
+Static page: CDN
+
+Dynamic page: add more instance
+
+Database:
 

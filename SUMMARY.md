@@ -14,6 +14,10 @@
   * [Data Visualization](data_visualization.md)
   * [Graph Database](graph_database.md)
 
+## Programming
+
+* [Overview](programming/overview.md)
+
 ## Front-end
 
 * [Overview](front-end/overview.md)
@@ -36,7 +40,16 @@
 
 ## TODO
 
+* Overview
+* [2018-01-07](todo/2018-01-07.md)
+
 ## Agile
 
 * [Overview](agile/overview.md)
+
+## AI
+
+## Big Data
+
+* Overview
 

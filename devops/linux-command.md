@@ -18,6 +18,10 @@ host files
 
 environment variable
 
+crob
+
+create service
+
 # Concepts
 
 * inodes
