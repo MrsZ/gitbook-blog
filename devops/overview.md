@@ -33,9 +33,17 @@ dash/hls
 
 # Service Mesh
 
-
-
 # IaaS
+
+# Deployment
+
+Ansible
+
+Puppet
+
+Salt
+
+Ansible is decentralized. 不需要中心管理节点
 
 # Scale
 
@@ -43,5 +51,11 @@ Static page: CDN
 
 Dynamic page: add more instance
 
-Database:
+Database: horizon scale, verticall scale
+
+
+
+# API Gateway
+
+
 

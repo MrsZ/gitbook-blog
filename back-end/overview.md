@@ -29,3 +29,13 @@ Swagger: intergrate with express.js.
 
 Based on OpenAPI
 
+
+
+心得
+
+开发websocket的应用时，主要要能区分服务器端和客户端
+
+
+
+
+

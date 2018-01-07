@@ -31,3 +31,9 @@ create service
 
 ncdu: [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu)
 
+
+
+# Trouble Shot
+
+
+
