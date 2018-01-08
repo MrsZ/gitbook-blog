@@ -116,7 +116,7 @@ utf8mb4是utf8的超集，emoji表情以及部分不常见汉字在utf8下会表
 
 1. `SELECT uid FROM t_user WHERE from_unixtime(day)>='2017-02-15'` 会导致全表扫描，正确写法是：`SELECT uid FROM t_user WHERE day>= unix_timestamp('2017-02-15 00:00:00')`
 
-务必请使用“同类型”进行比较，否则可能全表扫面
+**务必**请使用“同类型”进行比较，否则可能全表扫面
 
 # 索引规范
 
