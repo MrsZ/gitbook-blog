@@ -106,6 +106,10 @@ SELECT oid FROM t_order WHERE uid=123 AND status != 1;
 
 **禁止**使用属性隐式转换，见案例1
 
+禁止在WHERE条件的属性上使用函数或者表达式
+
+1. `SELECT uid FROM t_user WHERE from_unixtime(day)>='2017-02-15'` 会导致全表扫描，正确写法是：`SELECT uid FROM t_user WHERE day>= unix_timestamp('2017-02-15 00:00:00')`
+
 # 索引规范
 
 # 案例
