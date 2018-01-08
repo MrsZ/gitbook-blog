@@ -90,11 +90,23 @@ utf8mb4是utf8的超集，emoji表情以及部分不常见汉字在utf8下会表
 SELECT oid FROM t_order WHERE uid=123 AND status != 1;
 ```
 
-禁止大表使用JOIN查询，禁止大表使用子查询
+**禁止**大表使用JOIN查询，禁止大表使用子查询
+
+**禁止**使用SELECT \*，只获取必要的字段，需要显示说明列属性
+
+1. 读取不需要的列会增加CPU、IO、NET消耗
+2. 不能有效的利用覆盖索引
+3. 使用SELECT \*容易在增加或者删除字段后出现程序BUG
+
+禁止使用属性隐式转换
+
+
 
 # 索引规范
 
 # 案例
+
+案例1
 
 ```sql
 SELECT uid FROM t_user WHERE phone=13812345678
