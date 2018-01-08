@@ -84,11 +84,9 @@ utf8mb4是utf8的超集，emoji表情以及部分不常见汉字在utf8下会表
 
 **禁止**使用单独的负向查询NOT、!=、&lt;&gt;、!&lt;、!&gt;、NOT IN、NOT LIKE等，会导致全表扫描
 
-1. 单独的负向查询会导致全表扫描，如果要使用负向查询的话需要在前面加上过滤语句。例子：
+1. 单独的负向查询会导致全表扫描，如果要使用负向查询的话需要在前面加上过滤语句。例子：`SELECT oid FROM t_order WHERE uid=123 AND status != 1;`
 
-```sql
-SELECT oid FROM t_order WHERE uid=123 AND status != 1;
-```
+**禁止**%开头的模糊查询，会导致全表扫描
 
 **禁止**大表使用JOIN查询，禁止大表使用子查询
 
