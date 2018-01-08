@@ -38,11 +38,7 @@ MyISAM和InnoDB
 
 utf8mb4是utf8的超集，emoji表情以及部分不常见汉字在utf8下会表现为乱码，故需要升级至utf8mb4。
 
-
-
 禁止使用存储过程、视图、触发器、Event
-
-
 
 **禁止**使用foreign key，如果有外键完整性约束，需要应用程序控制。
 
@@ -93,6 +89,8 @@ utf8mb4是utf8的超集，emoji表情以及部分不常见汉字在utf8下会表
 ```sql
 SELECT oid FROM t_order WHERE uid=123 AND status != 1;
 ```
+
+禁止大表使用JOIN查询，禁止大表使用子查询
 
 # 索引规范
 
