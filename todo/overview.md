@@ -6,5 +6,5 @@ Kubernetes
 
 using Consul build distributed system
 
-block chain
+blockchain
 
