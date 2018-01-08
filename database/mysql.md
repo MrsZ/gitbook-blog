@@ -100,13 +100,13 @@ SELECT oid FROM t_order WHERE uid=123 AND status != 1;
 2. 不能有效的利用覆盖索引
 3. 使用SELECT \*容易在增加或者删除字段后出现程序BUG
 
-禁止使用INSERT INTO t\_xxx VALUES\(xxx\)，必须显示指定插入的列属性
+**禁止**使用INSERT INTO t\_xxx VALUES\(xxx\)，必须显示指定插入的列属性
 
 1. 容易在增加或者删除字段后出现程序BUG
 
 **禁止**使用属性隐式转换，见案例1
 
-禁止在WHERE条件的属性上使用函数或者表达式
+**禁止**在WHERE条件的属性上使用函数或者表达式
 
 1. `SELECT uid FROM t_user WHERE from_unixtime(day)>='2017-02-15'` 会导致全表扫描，正确写法是：`SELECT uid FROM t_user WHERE day>= unix_timestamp('2017-02-15 00:00:00')`
 
