@@ -54,6 +54,17 @@ float和double等浮点数据类型在计算时可能出错。
 3. null值需要更多的存储空，无论是表还是索引中每行中的null的列都需要额外的空间来标识
 4. 对null的处理时候，只能采用is null或is not null，而不能采用=、in、&lt;、&lt;&gt;、!=、not in这些操作符号。如：where name!=’shenjian’，如果存在name为null值的记录，查询结果就不会包含name为null值的记录
 
+对于手机号使用varchar\(20\)存储
+
+1. 涉及到区号或者国家代号，可能出现+-\(\)
+2. 手机号会去做数学运算么？
+3. varchar可以支持模糊查询，例如：like“138%”
+
+禁止使用ENUM，可使用TINYINT代替
+
+1. 增加新的ENUM值要做DDL操作
+2. ENUM的内部实际存储就是整数，你以为自己定义的是字符串？
+
 # 
 
 
