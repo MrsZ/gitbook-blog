@@ -94,5 +94,17 @@ SELECT oid FROM t_order WHERE uid=123 AND status != 1;
 
 # 索引规范
 
+# 案例
+
+```sql
+SELECT uid FROM t_user WHERE phone=13812345678
+```
+
+会导致全表扫描，而不能命中Phone索引。因为phone是varchar类型，SQL语句带入的是整型，改为
+
+```sql
+SELECT uid FROM t_user WHERE phone=’13812345678’
+```
+
 
 
