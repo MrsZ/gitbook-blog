@@ -39,13 +39,9 @@ df -h 显示整个磁盘空间使用状况
 
 df -hi显示整个磁盘inodes使用状况
 
-
-
 network analysis
 
-dig \[domain name\]
+dig \[domain name\] 
 
-
-
-
+http://www.ruanyifeng.com/blog/2016/06/dns.html
 
