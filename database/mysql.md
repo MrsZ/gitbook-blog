@@ -92,6 +92,8 @@ SELECT oid FROM t_order WHERE uid=123 AND status != 1;
 
 **禁止**大表使用JOIN查询，禁止大表使用子查询
 
+1. 会产生临时表，消耗较多内存与CPU，极大影响数据库性能
+
 **禁止**使用SELECT \*，只获取必要的字段，需要显示说明列属性
 
 1. 读取不需要的列会增加CPU、IO、NET消耗
