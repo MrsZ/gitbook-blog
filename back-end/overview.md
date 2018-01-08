@@ -36,3 +36,9 @@ Based on OpenAPI
 
 开发websocket的应用时，主要要能区分服务器端和客户端
 
+
+
+邮箱验证
+
+http://www.ruanyifeng.com/blog/2017/06/smtp-protocol.html
+
