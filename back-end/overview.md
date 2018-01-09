@@ -16,8 +16,6 @@ authentication
 
 document
 
-
-
 # Database
 
 data model
@@ -33,6 +31,12 @@ join operations
 including manager and workers
 
 connected with RabbitMQ
+
+# ORM
+
+sequelize.js
+
+query: { raw: true} // only work for find
 
 # Document
 
