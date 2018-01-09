@@ -38,6 +38,10 @@ sequelize.js
 
 query: { raw: true} // only work for find
 
+
+
+RESTful API
+
 # Document
 
 Swagger: intergrate with express.js.

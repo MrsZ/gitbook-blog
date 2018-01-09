@@ -41,7 +41,11 @@ df -hi显示整个磁盘inodes使用状况
 
 network analysis
 
-dig \[domain name\] 
+dig \[domain name\]
 
-http://www.ruanyifeng.com/blog/2016/06/dns.html
+分为question和answer section
+
+answer section返回DNS records
+
+[http://www.ruanyifeng.com/blog/2016/06/dns.html](http://www.ruanyifeng.com/blog/2016/06/dns.html)
 
