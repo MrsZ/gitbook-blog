@@ -16,6 +16,8 @@ authentication
 
 document
 
+OpenAPI
+
 # Database
 
 data model
@@ -38,9 +40,15 @@ sequelize.js
 
 query: { raw: true} // only work for find
 
-
-
 RESTful API
+
+# MicroService
+
+inter-process communcation
+
+* RPC
+* RESTful
+* MQ
 
 # Document
 
