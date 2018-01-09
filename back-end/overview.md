@@ -9,6 +9,7 @@
 * RPC
   * gRPC
   * Apache Thrift
+* serverless
 
 # Swagger
 
@@ -63,4 +64,12 @@ Based on OpenAPI
 邮箱验证
 
 [http://www.ruanyifeng.com/blog/2017/06/smtp-protocol.html](http://www.ruanyifeng.com/blog/2017/06/smtp-protocol.html)
+
+
+
+# Upload 
+
+use S3 as file server
+
+
 
