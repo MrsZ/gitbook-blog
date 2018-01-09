@@ -35,6 +35,7 @@
 
 * [Overview](devops/overview.md)
 * [AWS](devops/aws.md)
+* [Consul](devops/consul.md)
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
 * Kubernetes
