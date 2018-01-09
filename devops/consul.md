@@ -10,8 +10,6 @@ Servers are responsible to maintain the cluster' state
 
 An agent is responsible to perform health checks of the node it's running on and also of the services running on that node
 
-
-
 # example {#example}
 
 ## 1. run consul agent {#1-run-consul-agent}
@@ -30,7 +28,6 @@ or
 
 ```
 curl localhost:8500/v1/catalog/nodes
-
 ```
 
 ## 3. Register a service {#3-register-a-service}
@@ -38,10 +35,7 @@ curl localhost:8500/v1/catalog/nodes
 run a container
 
 ```
-docker 
-run
- --name nginx -d -p 80:80 nginx
-
+docker run --name nginx -d -p 80:80 nginx
 ```
 
 register to consul
@@ -49,29 +43,27 @@ register to consul
 ```
 echo
  '{
-  
+
 "ID"
 : 
 "web"
 ,
-  
+
 "Name"
 : 
 "web"
 ,
-  
+
 "Address"
 : 
 "127.0.0.1"
 ,
-  
+
 "Port"
 : 80
 }' 
 >
  web.json
-
-
 ```
 
 ```
@@ -83,7 +75,6 @@ localhost:
 agent
 /service/
 register
-
 ```
 
 test
@@ -121,7 +112,6 @@ p
 .service
 .consul
  SRV
-
 ```
 
 ## 5. Health Check {#5-health-check}
@@ -139,38 +129,38 @@ defining a health check
 ```
 echo
  '{
-  
+
 "ID"
 : 
 "web"
 ,
-  
+
 "Name"
 : 
 "web"
 ,
-  
+
 "Address"
 : 
 "127.0.0.1"
 ,
-  
+
 "Port"
 : 80,
-  
+
 "check"
 : {
-    
+
 "http"
 : 
 "http://127.0.0.1:80"
 ,
-    
+
 "interval"
 : 
 "10s"
 ,
-    
+
 "timeout"
 : 
 "1s"
@@ -179,12 +169,10 @@ echo
 }' 
 >
  web-health.json
-
 ```
 
 ```
 curl -X PUT --data-binary @web-health.json http://localhost:8500/v1/agent/service/register
-
 ```
 
 ## 6. Key value store {#6-key-value-store}
@@ -195,7 +183,6 @@ consul kv put redis/config/maxconns 25
 
 ```
 consul kv get redis/config/maxconns
-
 ```
 
 # Docker {#docker}
@@ -204,7 +191,6 @@ consul kv get redis/config/maxconns
 
 ```
 docker run -d --name=c1 -p 8500:8500 consul agent -dev -client=0.0.0.0 -bind=0.0.0.0
-
 ```
 
 ## 2. add additional agents {#2-add-additional-agents}
