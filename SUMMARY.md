@@ -30,6 +30,8 @@
 ## Back-end
 
 * [Overview](back-end/overview.md)
+* [RabbitMQ](back-end/rabbitmq.md)
+* Redis
 
 ## Devops
 
