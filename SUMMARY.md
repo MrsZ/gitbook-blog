@@ -22,6 +22,12 @@
 
 * [Overview](programming/overview.md)
 
+## Languages
+
+* [JavaScript/Node.js](languages/javascriptnodejs.md)
+  * ES6
+  * ESLint
+
 ## Front-end
 
 * [Overview](front-end/overview.md)
