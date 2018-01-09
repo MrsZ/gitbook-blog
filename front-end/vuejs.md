@@ -16,11 +16,7 @@ hook
 
 mounted, beforeDestroy
 
-
-
 # Vue Router
-
-
 
 # Vuex
 
@@ -31,6 +27,18 @@ getters
 mutations
 
 actions
+
+modules
+
+mapGetters
+
+mapMutattions
+
+mapActions
+
+
+
+use function as getters
 
 # 
 
@@ -53,6 +61,4 @@ implement user cache
 ![](/assets/Pasted image at 2018_01_04 08_06 PM.png)
 
 debounce
-
-
 
