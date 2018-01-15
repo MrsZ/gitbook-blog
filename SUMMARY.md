@@ -59,6 +59,7 @@
 
 * [Twitter](system-design/twitter.md)
 * [Text Editor](system-design/text-editor.md)
+* [Instagram](system-design/instagram.md)
 
 ## Testing
 
