@@ -16,7 +16,16 @@
 
 **Not in scope:**Adding tags to photos, searching photos on tags, commenting on photos, tagging users to photos, who to follow, suggestions, etc.
 
-###  
+# 2. Capacity
+
+* Let’s assume we have 300M total users, with 1M daily active users.
+
+* 2M new photos every day, 23 new photos every second.
+
+* Average photo file size =&gt; 200KB
+
+* Total space required for 1 day of photos: 2M \* 200KB =&gt; 400 GB
+* Total space required for 5 years: 400GB \* 365 \(days a year\) \* 5 \(years\) ~= 712 TB
 
 
 
