@@ -22,8 +22,6 @@ Volume
 
 Namespace：用于区分资源
 
-
-
 # Controllers
 
 ReplicaSet: 维护Replica
@@ -33,4 +31,8 @@ Deployments: 用于更新pod和ReplicaSets
 StatefulSets: 创建stateful应用
 
 DaemonSet: 在所有的node上运行相同的pod，类似于docker swarm的global.
+
+Job: 运行完之后结束Pod。
+
+
 

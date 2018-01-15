@@ -13,6 +13,7 @@
   * [Apache Hadoop](apache_hadoop.md)
   * [Data Visualization](data_visualization.md)
   * [Graph Database](graph_database.md)
+* [Git](git.md)
 
 ## Database
 
