@@ -51,8 +51,6 @@ answer section返回DNS records
 
 [http://www.ruanyifeng.com/blog/2016/06/dns.html](http://www.ruanyifeng.com/blog/2016/06/dns.html)
 
-
-
 # Network
 
 check for open prots
@@ -61,15 +59,13 @@ check for open prots
 sudo netstat -pltn
 ```
 
-
-
 # Web Server
 
 Apache不适合处理大流量高并发，Nginx没有Built-in动态内容处理，两者可以联合使用。
 
-nginx reverse proxy: https://www.nginx.com/resources/admin-guide/reverse-proxy/ 
+nginx reverse proxy: [https://www.nginx.com/resources/admin-guide/reverse-proxy/](https://www.nginx.com/resources/admin-guide/reverse-proxy/)
 
-nginx load balancer: layer 7 HTTP traffic, layer 4 database traffic
+nginx load balancer: layer 7 HTTP traffic, layer 4 database traffic https://www.nginx.com/resources/admin-guide/load-balancer/ 
 
 常见配置
 
@@ -92,6 +88,4 @@ scp
 sftp
 
 rsync
-
-
 
