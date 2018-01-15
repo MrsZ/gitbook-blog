@@ -55,6 +55,7 @@
 ## System Design
 
 * [Twitter](system-design/twitter.md)
+* [Text Editor](system-design/text-editor.md)
 
 ## Testing
 
