@@ -65,7 +65,7 @@ Apache不适合处理大流量高并发，Nginx没有Built-in动态内容处理�
 
 nginx reverse proxy: [https://www.nginx.com/resources/admin-guide/reverse-proxy/](https://www.nginx.com/resources/admin-guide/reverse-proxy/)
 
-nginx load balancer: layer 7 HTTP traffic, layer 4 database traffic https://www.nginx.com/resources/admin-guide/load-balancer/ 
+nginx load balancer: layer 7 HTTP traffic, layer 4 database traffic [https://www.nginx.com/resources/admin-guide/load-balancer/](https://www.nginx.com/resources/admin-guide/load-balancer/)
 
 常见配置
 
@@ -80,6 +80,8 @@ http {
 ```
 
 Load balancing method, server weights, health check, limit number of connections, persistence session
+
+HTTPS
 
 # 数据同步
 

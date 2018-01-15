@@ -49,7 +49,7 @@
 * [Consul](devops/consul.md)
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
-* Kubernetes
+* [Kubernetes](devops/kubernetes.md)
 
 ## System Design
 
