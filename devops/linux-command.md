@@ -31,6 +31,8 @@ create service
 
 ncdu: [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu)
 
+analysis disk usage
+
 # Trouble Shot
 
 disk analysis:
