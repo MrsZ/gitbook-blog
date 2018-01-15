@@ -51,6 +51,8 @@
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
 * [Kubernetes](devops/kubernetes.md)
+* [Load Balancer](devops/load-balancer.md)
+* Consul
 
 ## System Design
 

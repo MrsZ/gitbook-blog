@@ -2,6 +2,12 @@ awk
 
 xargs
 
+```bash
+xargs -I {} rm {}
+```
+
+-I {} 指定{}为需要替换的位置
+
 sed
 
 df -h
