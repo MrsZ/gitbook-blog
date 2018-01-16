@@ -71,10 +71,16 @@ check for open prots
 sudo netstat -pltn
 ```
 
-查看端口信息
+查看占用端口信息
 
 ```bash
 lsof -i :8080
+```
+
+关闭占用端口
+
+```bash
+sudo lsof -i :5000 | grep "python" | cut -d " " -f3 | xargs kill -9
 ```
 
 # Web Server
@@ -196,7 +202,7 @@ $ cat /etc/logrotate.d/nginx
 }
 ```
 
-useful config 
+useful config
 
 ```bash
 /var/log/program.log {
