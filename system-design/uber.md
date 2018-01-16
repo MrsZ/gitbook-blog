@@ -19,15 +19,7 @@ GeoHash的感性认识
 
 ![](/assets/GeoHash.png)
 
-
-
-
-
-
-
 # Ref
 
-GeoHash: http://www.cnblogs.com/LBSer/p/3310455.html
-
-
+GeoHash核心原理解析: [http://www.cnblogs.com/LBSer/p/3310455.html](http://www.cnblogs.com/LBSer/p/3310455.html)
 
