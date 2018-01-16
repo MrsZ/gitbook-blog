@@ -9,9 +9,7 @@
 
 GeoHash可以解决点的问题，R Tree可以解决线的问题
 
-Real-time system: 
-
-
+Real-time system:
 
 GeoHash的感性认识
 
@@ -20,4 +18,16 @@ GeoHash的感性认识
 3. 字符串相似的表示距离相近
 
 ![](/assets/GeoHash.png)
+
+
+
+
+
+
+
+# Ref
+
+GeoHash: http://www.cnblogs.com/LBSer/p/3310455.html
+
+
 
