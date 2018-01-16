@@ -43,6 +43,7 @@
 * [RabbitMQ](back-end/rabbitmq.md)
 * [Redis](back-end/redis.md)
 * [Distributed System](back-end/distributed-system.md)
+* [WebSocket](back-end/websocket.md)
 
 ## Devops
 
