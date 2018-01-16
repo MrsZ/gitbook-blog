@@ -74,5 +74,9 @@ connect
     }
 ```
 
-在url里面指定参数，在页面生成debug信息![](/assets/debug_view.png)
+在url里面指定参数，在页面生成debug信息![](/assets/debug_view.png)单商品秒杀
+
+万次秒杀：不需要太多优化，单机mysql即可支持
+
+百万次秒杀： web服务器集群，redis缓存
 
