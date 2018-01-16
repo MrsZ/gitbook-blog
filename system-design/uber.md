@@ -9,7 +9,7 @@
 
 GeoHash可以解决点的问题，R Tree可以解决线的问题
 
-首先GeoHash用四边型切分地图，以当前位置为圆心，距离为半径可以生成一个圆，可以查询圆形覆盖到的四边形内的所有driver. 由于GeoHash的字符串的长度与精度挂钩，所以我们可以根据当前经纬度和查询半径的精度得到当前所在的四边形的索引和周围的8个区域的索引。最后只用计算在这9个区域所有的driver的经纬度即可。
+首先GeoHash用四边型切分地图，以当前位置为圆心，距离为半径可以生成一个圆，可以查询圆形覆盖到的四边形内的所有driver。GeoHash的精度，即hash长度，应该根据日常区域内的流量和系统的负载能力来决定。
 
 ```js
 class Util {
@@ -19,8 +19,8 @@ class Util {
         return hash;
     }
 
-    getAroundHash() {
-        // return an array, 8 around hash
+    getAroundHash(hash, radius) {
+        // return 被radius覆盖到的区域
         return [];
     }
 
