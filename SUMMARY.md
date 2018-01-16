@@ -61,6 +61,7 @@
 * [Text Editor](system-design/text-editor.md)
 * [Instagram](system-design/instagram.md)
 * [Uber](system-design/uber.md)
+* [商品秒杀系统](system-design/shang-pin-miao-sha-xi-tong.md)
 
 ## Testing
 
