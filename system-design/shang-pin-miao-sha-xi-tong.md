@@ -12,13 +12,13 @@
 
 CDN + LVS
 
-
-
 数据库封装类
 
 connect
 
 在connect函数的首尾都调用microtime来记录当前时间，用于后续运行效率分析
+
+同理可以应用到所有执行语句上
 
 ```php
   private function Connect($name = 'master')
