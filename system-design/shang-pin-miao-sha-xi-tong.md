@@ -59,5 +59,20 @@ connect
 5. mysql 调用记录以及耗时的汇总统计
 6. cache 调用记录以及耗时的汇总统计
 
+思考：日志切换开关
+
+```php
+    /**
+     * 是否有可视化界面输出，HTML代码直接返回到浏览器
+     */
+    public static function _is_show_view() {
+        if (self::$instance && isset($_SERVER['HTTP_USER_AGENT'])) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+```
+
 
 
