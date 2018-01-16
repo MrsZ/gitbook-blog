@@ -59,7 +59,7 @@ connect
 5. mysql 调用记录以及耗时的汇总统计
 6. cache 调用记录以及耗时的汇总统计
 
-思考：日志切换开关
+思考：日志切换开关，见2-8
 
 ```php
     /**
@@ -74,5 +74,5 @@ connect
     }
 ```
 
-
+在url里面指定参数，在页面生成debug信息![](/assets/debug_view.png)
 
