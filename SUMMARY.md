@@ -35,7 +35,7 @@
 * [vue.js](front-end/vuejs.md)
 * [CSS](front-end/css.md)
 * [axios](front-end/axios.md)
-* TypeScript
+* [TypeScript](front-end/typescript.md)
 
 ## Back-end
 
