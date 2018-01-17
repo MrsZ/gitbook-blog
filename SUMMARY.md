@@ -47,6 +47,7 @@
 * [MicroService](back-end/microservice.md)
 * [Authentication](back-end/authentication.md)
 * [REST](back-end/rest.md)
+* [Performance Monitoring](back-end/performance-monitoring.md)
 
 ## Devops
 
