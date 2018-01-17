@@ -65,6 +65,10 @@ class Customer {
 
 Real-time system:
 
+Driver每4秒update一次位置和速度方向信息，怎么样保证他们都被收到并且存下来呢。我们可以用一个distrubuted message Queue，类似kafka，producer把内容写到messageQueue来，我们的server有很多worker从message Queue里面拿到数据并且分析数据，然后记录下来，供rider来使用。有一个问题是如果我们把所有的这些都放在同一个地方，就会很拥挤，而大部分的Uber的ride都是在同一个城市里的，而且我们要求实时计算，所以delay可能会很严重，所以我们可以把这些数据都分成不同的shard，相同的城市可以用一个shard，这样的好处就是大部分的Uber Ride应该是同城市的，而down side是如果是cross city的话就会比较expensive，还有一点就是小城市和大城市的traffic差距很多，所以我们可以把很多小城市组合在一起。
+
+
+
 GeoHash的感性认识
 
 1. GeoHash将二维的经纬度转换成字符串，比如下图展示了北京9个区域的GeoHash字符串，分别是WX4ER，WX4G2、WX4G3等等，每一个字符串代表了某一矩形区域。
