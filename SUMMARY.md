@@ -20,7 +20,7 @@
 * [MySQL](database/mysql.md)
 * [Data Partitioning](database/data-partitioning.md)
   * [Shard](database/data-partitioning/shard.md)
-  * Index Table
+  * [Index Table](database/data-partitioning/index-table.md)
 * Data Consistency
 
 ## Programming
