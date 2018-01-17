@@ -28,6 +28,9 @@
 * [JavaScript/Node.js](languages/javascriptnodejs.md)
   * ES6
   * ESLint
+  * [TypeScript](front-end/typescript.md)
+  * [Async/Await](front-end/asyncawait.md)
+  * Debug
 
 ## Front-end
 
@@ -35,7 +38,6 @@
 * [vue.js](front-end/vuejs.md)
 * [CSS](front-end/css.md)
 * [axios](front-end/axios.md)
-* [TypeScript](front-end/typescript.md)
 
 ## Back-end
 
@@ -48,6 +50,7 @@
 * [Authentication](back-end/authentication.md)
 * [REST](back-end/rest.md)
 * [Performance Monitoring](back-end/performance-monitoring.md)
+* [CQRS](back-end/cqrs.md)
 
 ## Devops
 
