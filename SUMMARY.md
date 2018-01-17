@@ -44,6 +44,8 @@
 * [Redis](back-end/redis.md)
 * [Distributed System](back-end/distributed-system.md)
 * [WebSocket](back-end/websocket.md)
+* [MicroService](back-end/microservice.md)
+* [Authentication](back-end/authentication.md)
 
 ## Devops
 
