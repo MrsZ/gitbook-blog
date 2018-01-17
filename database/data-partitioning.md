@@ -18,3 +18,11 @@ Functional partitioning
 
 ![](/assets/Functionally partitioning data by bounded context or subdomain.png)
 
+
+
+# Reference
+
+https://docs.microsoft.com/en-ca/azure/architecture/best-practices/data-partitioning
+
+
+
