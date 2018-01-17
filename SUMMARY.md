@@ -34,7 +34,7 @@
   * ESLint
   * [TypeScript](front-end/typescript.md)
   * [Async/Await](front-end/asyncawait.md)
-  * Debug
+  * [Debug](front-end/debug.md)
 
 ## Front-end
 

@@ -33,7 +33,7 @@ records type:A, CNAME
 
 # Load Balancer
 
-nginx 
+nginx
 
 traefik
 
@@ -72,4 +72,12 @@ Database: horizon scale, verticall scale
 # API Gateway
 
 Kong
+
+# Monitoring 
+
+Prometheus
+
+https://blog.risingstack.com/node-js-performance-monitoring-with-prometheus/
+
+
 
