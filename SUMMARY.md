@@ -46,6 +46,7 @@
 * [WebSocket](back-end/websocket.md)
 * [MicroService](back-end/microservice.md)
 * [Authentication](back-end/authentication.md)
+* [REST](back-end/rest.md)
 
 ## Devops
 
