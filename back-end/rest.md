@@ -15,17 +15,18 @@ Examples
 * [Twilio API](https://www.twilio.com/docs/api/rest)
 
 * [Stripe API](https://stripe.com/docs/api)
+
 * [DigitalOcean API](https://developers.digitalocean.com/documentation/v2/#introduction)
-
-
 
 # Authentication
 
 in header
 
-
-
 # Pagination
 
 in header
+
+use link header
+
+https://developer.github.com/v3/guides/traversing-with-pagination/
 
