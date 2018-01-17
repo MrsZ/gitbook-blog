@@ -16,9 +16,9 @@
 
 ![](/assets/index table3.png)
 
-
-
 对于shard data, index table用来映射partition key
+
+![](/assets/index table4.png)
 
 # Reference
 
