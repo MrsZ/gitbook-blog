@@ -18,6 +18,7 @@
 ## Database
 
 * [MySQL](database/mysql.md)
+* [Data Partitioning](database/data-partitioning.md)
 
 ## Programming
 
