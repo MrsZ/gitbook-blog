@@ -32,16 +32,15 @@ const InternalError = function InternalError(message) {
 };
 InternalError.prototype = Object.create(Error.prototype);
 InternalError.prototype.constructor = InternalError;
-
 ```
 
 ```js
 new NotFoundError('api not found');
 ```
 
-
-
 Promise
+
+promise can use multiple catch in one chain
 
 # Process Unhandled Error
 
@@ -56,6 +55,19 @@ process.on('uncaughtException', (error) => {
   if (!errorManagement.handler.isTrustedError(error))
     process.exit(1);
 });
+```
+
+
+
+swagger error format
+
+```
+{
+    "name": "JsonWebTokenError",
+    "message": "jwt must be provided",
+    "code": "server_error",
+    "statusCode": 403
+}
 ```
 
 
