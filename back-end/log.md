@@ -14,11 +14,34 @@ const NotFoundError = function NotFoundError(message) {
 };
 NotFoundError.prototype = Object.create(Error.prototype);
 NotFoundError.prototype.constructor = NotFoundError;
+
+
+const ForbiddenError = function ForbiddenError(message) {
+    this.message = message || 'Forbidden';
+    this.name = 'ForbiddenError';
+    Error.captureStackTrace(this, ForbiddenError);
+};
+ForbiddenError.prototype = Object.create(Error.prototype);
+ForbiddenError.prototype.constructor = ForbiddenError;
+
+
+const InternalError = function InternalError(message) {
+    this.message = message || 'Internal error';
+    this.name = 'InternalError';
+    Error.captureStackTrace(this, InternalError);
+};
+InternalError.prototype = Object.create(Error.prototype);
+InternalError.prototype.constructor = InternalError;
+
 ```
 
+```js
+new NotFoundError('api not found');
+```
+
+
+
 Promise
-
-
 
 # Process Unhandled Error
 
