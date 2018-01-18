@@ -55,6 +55,7 @@
 * [REST](back-end/rest.md)
 * [Performance Monitoring](back-end/performance-monitoring.md)
 * [CQRS](back-end/cqrs.md)
+* [Log](back-end/log.md)
 
 ## Devops
 
