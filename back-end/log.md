@@ -7,31 +7,69 @@ Express
 Define the error class
 
 ```js
-const NotFoundError = function NotFoundError(message) {
-    this.message = message || 'Not found';
-    this.name = 'NotFoundError';
-    Error.captureStackTrace(this, NotFoundError);
+const BadRequestError = function BadRequestError(message) {
+  this.message = message || 'Bad request';
+  this.name = 'BadRequestError';
+  this.statusCode = 400;
+  Error.captureStackTrace(this, BadRequestError);
 };
-NotFoundError.prototype = Object.create(Error.prototype);
-NotFoundError.prototype.constructor = NotFoundError;
+BadRequestError.prototype = Object.create(Error.prototype);
+BadRequestError.prototype.constructor = BadRequestError;
 
+const UnauthorizedError = function UnauthorizedError(message) {
+  this.message = message || 'Unauthorized';
+  this.name = 'UnauthorizedError';
+  this.statusCode = 401;
+  Error.captureStackTrace(this, UnauthorizedError);
+};
+UnauthorizedError.prototype = Object.create(Error.prototype);
+UnauthorizedError.prototype.constructor = UnauthorizedError;
 
 const ForbiddenError = function ForbiddenError(message) {
-    this.message = message || 'Forbidden';
-    this.name = 'ForbiddenError';
-    Error.captureStackTrace(this, ForbiddenError);
+  this.message = message || 'Forbidden';
+  this.name = 'ForbiddenError';
+  this.statusCode = 403;
+  Error.captureStackTrace(this, ForbiddenError);
 };
 ForbiddenError.prototype = Object.create(Error.prototype);
 ForbiddenError.prototype.constructor = ForbiddenError;
 
+const NotFoundError = function NotFoundError(message) {
+  this.message = message || 'Not found';
+  this.name = 'NotFoundError';
+  this.statusCode = 404;
+  Error.captureStackTrace(this, NotFoundError);
+};
+NotFoundError.prototype = Object.create(Error.prototype);
+NotFoundError.prototype.constructor = NotFoundError;
+
+const ConflictError = function ConflictError(message) {
+  this.message = message || 'Already exists';
+  this.name = 'ConflictError';
+  this.statusCode = 409;
+  Error.captureStackTrace(this, ConflictError);
+};
+ConflictError.prototype = Object.create(Error.prototype);
+ConflictError.prototype.constructor = ConflictError;
 
 const InternalError = function InternalError(message) {
-    this.message = message || 'Internal error';
-    this.name = 'InternalError';
-    Error.captureStackTrace(this, InternalError);
+  this.message = message || 'Internal error';
+  this.name = 'InternalError';
+  this.statusCode = 500;
+  Error.captureStackTrace(this, InternalError);
 };
 InternalError.prototype = Object.create(Error.prototype);
 InternalError.prototype.constructor = InternalError;
+
+module.exports = {
+  BadRequestError,
+  UnauthorizedError,
+  ForbiddenError,
+  NotFoundError,
+  ConflictError,
+  InternalError,
+};
+
 ```
 
 ```js
@@ -56,8 +94,6 @@ process.on('uncaughtException', (error) => {
     process.exit(1);
 });
 ```
-
-
 
 swagger error format
 
