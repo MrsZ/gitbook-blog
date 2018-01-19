@@ -59,13 +59,11 @@ app.use(function(error, req, res, next) {
 app.listen(3000);
 ```
 
-
-
 # Application
 
-[Keystone](http://keystonejs.com/zh/) 
+[Keystone](http://keystonejs.com/zh/): cms
 
-[Ghost](https://github.com/TryGhost/Ghost) 
+[Ghost](https://github.com/TryGhost/Ghost): web editor
 
-
+[Feathers.js](https://github.com/feathersjs/feathers): real-time application
 
