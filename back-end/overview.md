@@ -19,6 +19,12 @@ document
 
 OpenAPI
 
+error handling in swagger-express-mw
+
+in default.yaml, `onError: json_error_handler`
+
+
+
 # Database
 
 data model
@@ -65,11 +71,7 @@ Based on OpenAPI
 
 [http://www.ruanyifeng.com/blog/2017/06/smtp-protocol.html](http://www.ruanyifeng.com/blog/2017/06/smtp-protocol.html)
 
-
-
-# Upload 
+# Upload
 
 use S3 as file server
-
-
 
