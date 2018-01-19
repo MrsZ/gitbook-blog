@@ -94,13 +94,11 @@ process.on('uncaughtException', (error) => {
 });
 ```
 
-
-
 # Express.js Error Handling
 
 use middleware
 
-use next\(\) to pass error to error handler. If want to end the process, need return next\(\);
+use next\(\) to pass error to error handler. If want to end the process, need return next\(\).
 
 ```js
 const app = require('express')();
@@ -117,8 +115,6 @@ app.use(function(error, req, res, next) {
 
 app.listen(3000);
 ```
-
-
 
 swagger error format
 
