@@ -23,7 +23,7 @@ error handling in swagger-express-mw
 
 in default.yaml, `onError: json_error_handler`
 
-
+default code: https://github.com/theganyo/swagger-node-runner
 
 # Database
 
