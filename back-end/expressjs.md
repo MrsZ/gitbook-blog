@@ -35,5 +35,31 @@ module.exports = function logRequest(req, res, next) {
 };
 ```
 
+Error Handling
+
+use middleware
+
+use next\(\) to pass error to error handler. If want to end the process, need return next\(\).
+
+Error-handling middleware always takes four arguments. You must provide four arguments to identify it as an error-handling middleware function. Even if you don’t need to use the next object, you must specify it to maintain the signature.
+
+```js
+const app = require('express')();
+
+app.get('*', function(req, res, next) {
+  // Reporting async errors *must* go through `next()`
+  setImmediate(() => { next(new Error('woops')); });
+});
+
+app.use(function(error, req, res, next) {
+  // Will get here
+  res.json({ message: error.message });
+});
+
+app.listen(3000);
+```
+
+
+
 
 
