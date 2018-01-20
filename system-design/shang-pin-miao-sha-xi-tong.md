@@ -80,8 +80,6 @@ connect
 
 百万次秒杀： web服务器集群，redis缓存
 
-
-
 优化单机性能
 
 提高页面访问速度
@@ -90,19 +88,13 @@ connect
 * 减少资源请求数量， 合并和压缩css,js等： minify
 * 设置浏览器缓存，利用CDN加速
 
-
-
 nginx设置浏览器缓存
 
 ```
 location ~.*\.(jpg|png|jpeg)$ { #指定缓存文件类型 
-  expires 30d;  #设置浏览器过期时间
-}  
+  expires 7d;  #设置浏览器过期时间
+}
 ```
-
-
-
-
 
 
 
