@@ -37,6 +37,7 @@
   * [TypeScript](front-end/typescript.md)
   * [Async/Await](front-end/asyncawait.md)
   * [Debug](front-end/debug.md)
+  * [npm](front-end/npm.md)
 
 ## Front-end
 
