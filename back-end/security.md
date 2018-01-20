@@ -40,8 +40,6 @@ SQL注入
 
 solution：用问号替换
 
-
-
 命令行注入
 
 命令注入是攻击者在远程Web服务器上运行OS命令所使用的技术。通过这种方法，攻击者甚至可以从系统获得到密码。
@@ -57,8 +55,6 @@ https://example.com/downloads?file=%3Bcat%20/etc/passwd
 ```
 
 solution: 过滤用户输入
-
-
 
 # DoS
 
@@ -77,19 +73,9 @@ solution: 过滤用户输入
 (a|a?)+
 ```
 
-
-
-
-
-
+solution: 用类似safe-regex检查正则表达式
 
 # Reference
 
-https://mp.weixin.qq.com/s/xiy4nTRKCDlFPGi1xn1cnQ
-
-
-
-
-
-
+[https://mp.weixin.qq.com/s/xiy4nTRKCDlFPGi1xn1cnQ](https://mp.weixin.qq.com/s/xiy4nTRKCDlFPGi1xn1cnQ)
 
