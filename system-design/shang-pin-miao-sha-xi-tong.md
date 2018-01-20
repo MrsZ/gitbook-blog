@@ -84,6 +84,26 @@ connect
 
 库存变化，传递+num或者-num，传递变化量，而不是变化结果。redis用incrby。防止脏数据。
 
+读允许脏数据，写绝对不允许脏数据。
+
+```php
+// left为减少后的返回值
+$left = $goods_model->changeLeftNumCached($goods_id, 0 - $goods_num);
+$ok = false;
+// 如果存在并发，比如只剩最后一台手机，但是有两个人同时下单，这时候$left为-1, 下单并不成功
+// 只有left >= 0时，才能成功下单
+if ($left >= 0) {
+    $ok = $goods_model->changeLeftNum($goods_id, 0 - $goods_num);
+} else {
+    // 扣除商品库存失败
+    // 更改商品状态为售完
+    // 引导后续用户到静态页面
+    $goods_model->changeStatusCached($goods_id, 0);
+    $result = array('error_no' => '108', 'error_msg' => '商品剩余数量不足')；
+    show_result($result);
+}
+```
+
 # 优化单机性能
 
 提高页面访问速度
@@ -109,16 +129,12 @@ location ~.*\.(jpg|png|jpeg)$ { #指定缓存文件类型
 * 快速终止的逻辑放在前面
 * 增加冗余的定制化的数据，保证程序更快速
 
-
-
 提高数据处理速度
 
 * 数据库索引，一定不能少，更不能乱
 * 减少数据规模
   * 如订单数据表，由于历史订单的存在，数据表的规模会越来越大，会减缓查找速度。所以可以考虑专门建一张表用于处理当前活动的订单。结束后再合并到历史订单
 * 将数据放到redis缓存中
-
-
 
 
 
