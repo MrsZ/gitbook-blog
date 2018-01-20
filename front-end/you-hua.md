@@ -51,7 +51,7 @@ lazyload()
 document.addEventListener('scroll', lazyload)
 ```
 
-预加载
+预加载（Preload）
 
 图片等静态资源在使用之前的提前请求
 
