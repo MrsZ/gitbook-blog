@@ -23,6 +23,7 @@
   * [Shard](database/data-partitioning/shard.md)
   * [Index Table](database/data-partitioning/index-table.md)
 * Data Consistency
+* [ElasticSearch](database/elasticsearch.md)
 
 ## Programming
 
@@ -78,6 +79,7 @@
 * [Instagram](system-design/instagram.md)
 * [Uber](system-design/uber.md)
 * [商品秒杀系统](system-design/shang-pin-miao-sha-xi-tong.md)
+* [基于ElasticSearch搜房网](system-design/ji-yu-elasticsearch-sou-fang-wang.md)
 
 ## Testing
 
