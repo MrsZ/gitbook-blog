@@ -45,6 +45,7 @@
 * [vue.js](front-end/vuejs.md)
 * [CSS](front-end/css.md)
 * [axios](front-end/axios.md)
+* [优化](front-end/you-hua.md)
 
 ## Back-end
 
