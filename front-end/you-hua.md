@@ -16,6 +16,10 @@
 
 注意：在图片加载之前，需要占位，即设置好原本的高度
 
+```html
+<img src="" class="image-item" lazyload="true" data-original="http://image.png">
+```
+
 ```js
 var viewHeight = document.documentElement.clientHeight
 
