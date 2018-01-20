@@ -53,10 +53,20 @@ document.addEventListener('scroll', lazyload)
 
 预加载（Preload）
 
+preload.js
+
 图片等静态资源在使用之前的提前请求
 
 * 资源使用到时能从缓存中加载，提升用户体验
 * 页面展示的依赖关系维护
 
 ![](/assets/preload.png)
+
+原理
+
+1. 标签
+2. &lt;img&gt;
+3. xmlhttprequest
+
+
 
