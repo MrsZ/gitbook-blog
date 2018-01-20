@@ -64,8 +64,8 @@ preload.js
 
 原理
 
-1. 标签
-2. &lt;img&gt;
+1. &lt;img&gt;标签
+2. js中new一个Image\(\)对象
 3. xmlhttprequest
 
 
