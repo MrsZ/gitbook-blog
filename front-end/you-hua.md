@@ -14,6 +14,8 @@
 
 判断图片是否进入可视区域： 图片的上边缘是否小于设备的Height
 
+注意：在图片加载之前，需要占位，即设置好原本的高度
+
 ```js
 var viewHeight = document.documentElement.clientHeight
 
@@ -24,7 +26,7 @@ function lazyload() {
         if (item.dataset.original === '')
             return 
         rect = item.getBoundingClientRect()
-        
+
         if (rect.bottom >= 0 && rect.top < viewHeight) {
             !function() {
                 var img = new Image()
@@ -45,8 +47,6 @@ lazyload()
 document.addEventListener('scroll', lazyload)
 ```
 
-
-
 预加载
 
 图片等静态资源在使用之前的提前请求
@@ -55,8 +55,4 @@ document.addEventListener('scroll', lazyload)
 * 页面展示的依赖关系维护
 
 ![](/assets/preload.png)
-
-
-
-
 
