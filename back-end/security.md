@@ -68,12 +68,28 @@ solution: 过滤用户输入
 nmap --script ssl-cert,ssl-enum-ciphers -p 443,465,993,995 www.example.com
 ```
 
-
-
 使用sslyze测试SSL/TLS漏洞
 
 ```
 ./sslyze.py --regular example.com:443
+```
+
+
+
+HSTS
+
+Strict-Transport-Security 头部强制浏览器和服务器使用安全连接（HTTP over SSL/TLS）
+
+```
+strict-transport-security:max-age=631138519
+```
+
+这里的max-age，指定了浏览器应该自动将HTTP请求转换为HTTPS的有效时间。
+
+测试
+
+```
+curl -s -D- https://twitter.com/ | grep -i Strict
 ```
 
 
