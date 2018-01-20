@@ -56,6 +56,28 @@ https://example.com/downloads?file=%3Bcat%20/etc/passwd
 
 solution: 过滤用户输入
 
+# 安全传输
+
+检查SSL version, algorithms, key length
+
+使用nmap和sslyze分析
+
+检查证书信息
+
+```
+nmap --script ssl-cert,ssl-enum-ciphers -p 443,465,993,995 www.example.com
+```
+
+
+
+使用sslyze测试SSL/TLS漏洞
+
+```
+./sslyze.py --regular example.com:443
+```
+
+
+
 # DoS
 
 正则表达式DoS \(Evil Regexpes\)
