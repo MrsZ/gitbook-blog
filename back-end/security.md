@@ -14,15 +14,11 @@
 
 * **Content-Security-Policy** 能有效防止多种攻击，包括跨站脚本和跨站注入
 
-
-
 # 认证
 
 暴力攻击保护
 
 ratelimiter module
-
-
 
 # 数据验证
 
@@ -34,8 +30,6 @@ XSS
 
 Solution: 严格过滤用户输入
 
-
-
 SQL注入
 
 例子
@@ -43,6 +37,59 @@ SQL注入
     ``select title, author from books where id=$id``
     // 注入$id = 2 or 1=1
     ``select title, author from books where id=2 or 1=1``
+
+solution：用问号替换
+
+
+
+命令行注入
+
+命令注入是攻击者在远程Web服务器上运行OS命令所使用的技术。通过这种方法，攻击者甚至可以从系统获得到密码。
+
+```
+https://example.com/downloads?file=user1.txt
+```
+
+可以用如下攻击
+
+```
+https://example.com/downloads?file=%3Bcat%20/etc/passwd
+```
+
+solution: 过滤用户输入
+
+
+
+# DoS
+
+正则表达式DoS \(Evil Regexpes\)
+
+* 使用重复分组
+* 重复组中出现: 
+  * 重复
+  * 交替重叠
+
+例子
+
+```
+([a-zA-Z]+)*
+(a+)+
+(a|a?)+
+```
+
+
+
+
+
+
+
+# Reference
+
+https://mp.weixin.qq.com/s/xiy4nTRKCDlFPGi1xn1cnQ
+
+
+
+
 
 
 
