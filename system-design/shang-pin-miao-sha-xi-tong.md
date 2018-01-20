@@ -82,17 +82,22 @@ connect
 
 # 逻辑
 
+扣除商品剩余数量
+
 库存变化，传递+num或者-num，传递变化量，而不是变化结果。redis用incrby。防止脏数据。
 
 读允许脏数据，写绝对不允许脏数据。
 
 ```php
+// 8. 扣除商品剩余数量
 // left为减少后的返回值
+// cache, redis incrby
 $left = $goods_model->changeLeftNumCached($goods_id, 0 - $goods_num);
 $ok = false;
 // 如果存在并发，比如只剩最后一台手机，但是有两个人同时下单，这时候$left为-1, 下单并不成功
 // 只有left >= 0时，才能成功下单
 if ($left >= 0) {
+    // 数据库正常update
     $ok = $goods_model->changeLeftNum($goods_id, 0 - $goods_num);
 } else {
     // 扣除商品库存失败
