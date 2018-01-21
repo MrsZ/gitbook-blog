@@ -95,6 +95,63 @@ will-change: transform
 8. 对于动画新建图层
 9. 启用 GPU 硬件加速
 
+用translate替代top改变
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      #rect {
+        top: 0;
+        width:100px;
+        height: 100px;
+        background: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rect"></div>
+    <script type="text/javascript">
+      setTimeout (() => {
+        document.getElementById('rect').style.top = '100px';
+      }, 2000)
+    </script>
+  </body>
+</html>
+```
+
+触发回流的表现为多了一段layout时间![](/assets/reflow.png)
+
+修改为
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      #rect {
+        transform: translateY(0);
+        width:100px;
+        height: 100px;
+        background: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rect"></div>
+    <script type="text/javascript">
+      setTimeout (() => {
+        document.getElementById('rect').style.transform = 'translateY(100px)';
+      }, 2000)
+    </script>
+  </body>
+</html>
+
+```
+
+![](/assets/no reflow result.png)
+
 # 懒加载
 
 * 减少无效资源的加载
