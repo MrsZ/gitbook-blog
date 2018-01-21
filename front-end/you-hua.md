@@ -95,6 +95,7 @@ will-change: transform
    1. visibility只会触发重绘不会触发回流
    2. opacity不触发重绘也不触发回流\(在当前图层无兄弟节点的情况下\)
 3. 不要一条一条地修改 DOM 的样式，预先定义好 class，然后修改 DOM 的 className
+   1. 为了保证修改后的样式优先级大于原优先级，例子`#rect{} #rect.active{}`
 4. 把 DOM 离线后修改，比如：先把 DOM 给 display:none \(有一次 Reflow\)，然后你修改100次，然后再把它显示出来
 5. 不要把 DOM 结点的属性值放在一个循环里当成循环里的变量，
    1. 如offsetHeight, offsetWidth, 获取offsetHeight和offsetWidth时，为了获取真实的数据，浏览器会刷新回流的缓冲区域
