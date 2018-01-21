@@ -82,18 +82,18 @@ will-change: transform
 
 通过Chrome layers和Performance工具来调试和测试性能
 
-
-
 实战优化点
 
 1. 用translate替代top改变
 2. 用opacity替代visibility
-3. 不要一条一条地修改 DOM 的样式，预先定义好 class，然后修改 DOM 的 className
-4. 把 DOM 离线后修改，比如：先把 DOM 给 display:none \(有一次 Reflow\)，然后你修改100次，然后再把它显示出来
+3. 不要一条一条地修改 DOM 的样式，预先定义好 class，然后修改 DOM 的 className
+4. 把 DOM 离线后修改，比如：先把 DOM 给 display:none \(有一次 Reflow\)，然后你修改100次，然后再把它显示出来
 5. 不要把 DOM 结点的属性值放在一个循环里当成循环里的变量
-6.  不要使用 table 布局，可能很小的一个小改动会造成整个 table 的重新布局
+6. 不要使用 table 布局，可能很小的一个小改动会造成整个 table 的重新布局
 7. 动画实现的速度的选择
-8.  对于动画新建图层   9. 启用 GPU 硬件加速
+8. 对于动画新建图层
+
+9. 启用 GPU 硬件加速
 
 # 懒加载
 
