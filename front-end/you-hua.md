@@ -158,8 +158,6 @@ will-change: transform
 
 ![](/assets/no reflow result.png)
 
-
-
 用opacity代替visibility
 
 ```html
@@ -187,7 +185,7 @@ will-change: transform
 
 修改为
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
