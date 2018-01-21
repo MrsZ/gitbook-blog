@@ -88,7 +88,8 @@ will-change: transform
 2. 用opacity替代visibility
 3. 不要一条一条地修改 DOM 的样式，预先定义好 class，然后修改 DOM 的 className
 4. 把 DOM 离线后修改，比如：先把 DOM 给 display:none \(有一次 Reflow\)，然后你修改100次，然后再把它显示出来
-5. 不要把 DOM 结点的属性值放在一个循环里当成循环里的变量，如offsetHeight, offsetWidth
+5. 不要把 DOM 结点的属性值放在一个循环里当成循环里的变量，
+   1. 如offsetHeight, offsetWidth, 获取offsetHeight和offsetWidth时，为了获取真实的数据，浏览器会刷新回流的缓冲区域
 6. 不要使用 table 布局，可能很小的一个小改动会造成整个 table 的重新布局
 7. 动画实现的速度的选择
 8. 对于动画新建图层
