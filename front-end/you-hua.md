@@ -93,6 +93,7 @@ will-change: transform
    2. translate只会触发重绘
 2. 用opacity替代visibility
    1. visibility只会触发重绘不会触发回流
+   2. opacity不触发重绘也不触发回流\(在当前图层无兄弟节点的情况下\)
 3. 不要一条一条地修改 DOM 的样式，预先定义好 class，然后修改 DOM 的 className
 4. 把 DOM 离线后修改，比如：先把 DOM 给 display:none \(有一次 Reflow\)，然后你修改100次，然后再把它显示出来
 5. 不要把 DOM 结点的属性值放在一个循环里当成循环里的变量，
@@ -184,6 +185,8 @@ will-change: transform
 ```
 
 修改为
+
+需要为rect添加单独图层，确保该图层只有rect。否则opacity会导致整个重绘并回流整个图层
 
 ```html
 <!DOCTYPE html>
