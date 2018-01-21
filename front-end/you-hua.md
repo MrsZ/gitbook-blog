@@ -80,6 +80,8 @@ transform: translateZ(0)
 will-change: transform
 ```
 
+通过Chrome layers和Performance工具来调试和测试性能
+
 # 懒加载
 
 * 减少无效资源的加载
