@@ -158,6 +158,60 @@ will-change: transform
 
 ![](/assets/no reflow result.png)
 
+
+
+用opacity代替visibility
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      #rect {
+        width:100px;
+        height: 100px;
+        background: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rect"></div>
+    <script type="text/javascript">
+      setTimeout (() => {
+        document.getElementById('rect').style.visibility = 'hidden';
+      }, 2000)
+    </script>
+  </body>
+</html>
+```
+
+修改为
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      #rect {
+        width:100px;
+        height: 100px;
+        background: blue;
+        opacity: 1;
+        transform: translateZ(0);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rect"></div>
+    <script type="text/javascript">
+      setTimeout (() => {
+        document.getElementById('rect').style.opacity = '0';
+      }, 2000)
+    </script>
+  </body>
+</html>
+```
+
 # 懒加载
 
 * 减少无效资源的加载
