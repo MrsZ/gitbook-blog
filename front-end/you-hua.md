@@ -84,8 +84,15 @@ will-change: transform
 
 实战优化点
 
+重绘对应performance中的paint
+
+回流对应performance中的layout
+
 1. 用translate替代top改变
+   1. top会触发重绘和回流
+   2. translate只会触发重绘
 2. 用opacity替代visibility
+   1. visibility只会触发重绘不会触发回流
 3. 不要一条一条地修改 DOM 的样式，预先定义好 class，然后修改 DOM 的 className
 4. 把 DOM 离线后修改，比如：先把 DOM 给 display:none \(有一次 Reflow\)，然后你修改100次，然后再把它显示出来
 5. 不要把 DOM 结点的属性值放在一个循环里当成循环里的变量，
@@ -147,7 +154,6 @@ will-change: transform
     </script>
   </body>
 </html>
-
 ```
 
 ![](/assets/no reflow result.png)
