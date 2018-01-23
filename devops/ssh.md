@@ -4,8 +4,6 @@ install ssh
 which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )
 ```
 
-
-
 在后台运行ssh-agent
 
 ```bash
@@ -24,8 +22,6 @@ or
 ssh-add ~/.ssh/id_rsa
 ```
 
-
-
 Create the SSH directory and give it the right permissions
 
 ```
@@ -34,6 +30,12 @@ chmod 700 ~/.ssh
 ```
 
 
+
+把domain加入已知host，可以跳过Interactive
+
+```bash
+ssh-keyscan -p [port number] [domain name] >> ~/.ssh/known_hosts
+```
 
 
 
