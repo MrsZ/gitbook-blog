@@ -29,12 +29,19 @@ mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 ```
 
-
-
 把domain加入已知host，可以跳过Interactive
 
 ```bash
 ssh-keyscan -p [port number] [domain name] >> ~/.ssh/known_hosts
+```
+
+or
+
+（不推荐）Add the following to your `~/.ssh/config` file:
+
+```bash
+Host github.com
+    StrictHostKeyChecking no
 ```
 
 
