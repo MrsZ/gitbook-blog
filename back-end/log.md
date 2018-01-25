@@ -129,5 +129,30 @@ swagger error format
 }
 ```
 
+Process request error
+
+microservice之间互相调用，其中error需要定义函数单独处理
+
+```js
+const { NotFoundError } = require('./errors');
+
+module.exports = function requestErrorHandler(err) {
+  if (err.statusCode === 404) {
+    // return new Error('Endpoint Unreachable');
+    return new NotFoundError('Endpoint Unreachable');
+  } else if (err.statusCode >= 400 && err.statusCode < 500) {
+    let tempErr = new Error();
+    tempErr.name = err.error.name;
+    tempErr.message = err.error.message;
+    tempErr.statusCode = err.error.statusCode;
+
+    return tempErr;
+  } else {
+    return err;
+  }
+}
+
+```
+
 
 
