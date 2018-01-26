@@ -55,7 +55,16 @@ RETURN DISTINCT surfer
 * `()`empty parenthesis to ignore these nodes
 
 * `DISTINCT`because more than one path will match the pattern
+
 * `surfer`will contain Allison, a friend of a friend who surfs
+
+显示语句执行过程 EXPLAIN或者PROFILE
+
+```
+PROFILE MATCH (js:Person)-[:KNOWS]-()-[:KNOWS]-(surfer)
+WHERE js.name = "Johan" AND surfer.hobby = "surfing"
+RETURN DISTINCT surfer
+```
 
 
 
