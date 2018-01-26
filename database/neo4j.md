@@ -12,8 +12,6 @@ Migrate from relational database
 
 Workbench export data to CSV
 
-
-
 basic grammar
 
 ```bash
@@ -23,7 +21,24 @@ CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 })
 * `CREATE` clause to create data
 * `()` parenthesis to indicate a node
 * `ee:Person` a variable 'ee' and label 'Person' for the new node
-* `{} `brackets to add properties to the node
+* `{}`brackets to add properties to the node
+
+```
+MATCH (ee:Person) WHERE ee.name = "Emil" RETURN ee;
+```
+
+* `MATCH`clause to specify a pattern of nodes and relationships
+
+* `(ee:Person)`a single node pattern with label 'Person' which will assign matches to the variable 'ee'
+* `WHERE`clause to constrain the results
+* `ee.name = "Emil"`compares name property to the value "Emil"
+* `RETURN`clause used to request particular results
+
+
+
+```
+MATCH (ee:Person)-[:KNOWS]-(friends) WHERE ee.name = "Emil" RETURN ee, friends
+```
 
 
 
