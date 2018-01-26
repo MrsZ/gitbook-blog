@@ -30,15 +30,19 @@ MATCH (ee:Person) WHERE ee.name = "Emil" RETURN ee;
 * `MATCH`clause to specify a pattern of nodes and relationships
 
 * `(ee:Person)`a single node pattern with label 'Person' which will assign matches to the variable 'ee'
+
 * `WHERE`clause to constrain the results
 * `ee.name = "Emil"`compares name property to the value "Emil"
 * `RETURN`clause used to request particular results
 
-
-
 ```
 MATCH (ee:Person)-[:KNOWS]-(friends) WHERE ee.name = "Emil" RETURN ee, friends
 ```
+
+* `MATCH`clause to describe the pattern from known Nodes to found Nodes
+* `(ee)`starts the pattern with a Person \(qualified by WHERE\)
+* `-[:KNOWS]-`matches "KNOWS" relationships \(in either direction\)
+* `(friends)`will be bound to Emil's friends
 
 
 
