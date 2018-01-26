@@ -34,6 +34,7 @@ MATCH (ee:Person) WHERE ee.name = "Emil" RETURN ee;
 * `WHERE`clause to constrain the results
 
 * `ee.name = "Emil"`compares name property to the value "Emil"
+
 * `RETURN`clause used to request particular results
 
 ```
@@ -50,6 +51,11 @@ MATCH (js:Person)-[:KNOWS]-()-[:KNOWS]-(surfer)
 WHERE js.name = "Johan" AND surfer.hobby = "surfing"
 RETURN DISTINCT surfer
 ```
+
+* `()`empty parenthesis to ignore these nodes
+
+* `DISTINCT`because more than one path will match the pattern
+* `surfer`will contain Allison, a friend of a friend who surfs
 
 
 
