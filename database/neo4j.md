@@ -32,6 +32,7 @@ MATCH (ee:Person) WHERE ee.name = "Emil" RETURN ee;
 * `(ee:Person)`a single node pattern with label 'Person' which will assign matches to the variable 'ee'
 
 * `WHERE`clause to constrain the results
+
 * `ee.name = "Emil"`compares name property to the value "Emil"
 * `RETURN`clause used to request particular results
 
@@ -43,6 +44,12 @@ MATCH (ee:Person)-[:KNOWS]-(friends) WHERE ee.name = "Emil" RETURN ee, friends
 * `(ee)`starts the pattern with a Person \(qualified by WHERE\)
 * `-[:KNOWS]-`matches "KNOWS" relationships \(in either direction\)
 * `(friends)`will be bound to Emil's friends
+
+```bash
+MATCH (js:Person)-[:KNOWS]-()-[:KNOWS]-(surfer)
+WHERE js.name = "Johan" AND surfer.hobby = "surfing"
+RETURN DISTINCT surfer
+```
 
 
 
