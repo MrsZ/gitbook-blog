@@ -151,8 +151,13 @@ module.exports = function requestErrorHandler(err) {
     return err;
   }
 }
-
 ```
 
+Error class
 
+name
+
+message
+
+stack
 
