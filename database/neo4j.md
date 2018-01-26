@@ -66,5 +66,12 @@ WHERE js.name = "Johan" AND surfer.hobby = "surfing"
 RETURN DISTINCT surfer
 ```
 
+Query all nodes
+
+```bash
+MATCH (n)
+RETURN n
+```
+
 
 
