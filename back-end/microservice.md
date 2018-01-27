@@ -21,3 +21,19 @@ Features
 
 
 
+List
+
+* **API proxying**
+* **Logging**
+* **Service discovery and registration**
+* **Service dependencies**
+* **Data sharing and synchronization**
+* **Graceful failure**
+* **Automated deployment and instantiation**
+
+
+
+
+
+
+
