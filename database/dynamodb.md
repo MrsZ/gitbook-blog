@@ -13,5 +13,9 @@ primary key: identify item
 
 secondary index: 用来query
 
+DynamoDB Stream: 有写操作的时候可以触发event
+
+DAX 可以用来作为DynamoDB的cache
+
 
 
