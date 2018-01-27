@@ -12,6 +12,8 @@ mutation: 关于写入数据
 * update 
 * delete
 
+subscription: 获取realtime updates
+
 # 
 
 # 
