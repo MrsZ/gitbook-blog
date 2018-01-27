@@ -95,5 +95,7 @@ OPTIONAL MATCH (emil)-[r]-()
 DELETE emil,r
 ```
 
+tutorial
 
+https://neo4j.com/graphacademy/online-training/getting-started-graph-databases-using-neo4j/part-1/
 
