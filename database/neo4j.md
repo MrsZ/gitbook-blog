@@ -12,9 +12,17 @@ docker run -d --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:
 
 Workbench export data to CSV
 
+https://dzone.com/refcardz/from-relational-to-graph-a-developers-guide
+
 
 
 # Basic grammar
+
+\(\) for node
+
+\[\] for relation
+
+{} for properties
 
 ```bash
 CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 })
