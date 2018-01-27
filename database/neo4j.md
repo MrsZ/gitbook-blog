@@ -12,7 +12,13 @@ docker run -d --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:
 
 Workbench export data to CSV
 
-https://dzone.com/refcardz/from-relational-to-graph-a-developers-guide
+[https://dzone.com/refcardz/from-relational-to-graph-a-developers-guide](https://dzone.com/refcardz/from-relational-to-graph-a-developers-guide)
+
+```bash
+load csv with headers from "file:///v3_user.csv" as row
+create (n:User)
+SET n = row
+```
 
 
 
