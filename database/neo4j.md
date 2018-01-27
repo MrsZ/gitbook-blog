@@ -20,8 +20,6 @@ create (n:User)
 SET n = row
 ```
 
-
-
 # Basic grammar
 
 \(\) for node
@@ -87,6 +85,14 @@ Query all nodes
 ```bash
 MATCH (n)
 RETURN n
+```
+
+delete nodes and its relationship
+
+```
+MATCH (emil:Person {name:"Emil Eifrem"})
+OPTIONAL MATCH (emil)-[r]-()
+DELETE emil,r
 ```
 
 
