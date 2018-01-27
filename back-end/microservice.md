@@ -19,8 +19,6 @@ Features
 * Protocol transformation
 * Rate-limiting and caching
 
-
-
 List
 
 * **API proxying**
@@ -31,9 +29,7 @@ List
 * **Graceful failure**
 * **Automated deployment and instantiation**
 
+Share data:
 
-
-
-
-
+use one service manage shared data
 
