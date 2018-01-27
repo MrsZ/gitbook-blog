@@ -26,6 +26,7 @@
 * [ElasticSearch](database/elasticsearch.md)
 * [Neo4j](database/neo4j.md)
 * [GraphQL](database/graphql.md)
+* [DynamoDB](database/dynamodb.md)
 
 ## Programming
 
