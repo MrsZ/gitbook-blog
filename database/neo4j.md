@@ -1,9 +1,9 @@
 # Conceot
 
-* Nodes
-* labels
-* relationships
-* properties
+* Nodes：基本节点
+* labels： 类似于node的类型
+* relationships：节点间的关系
+* properties：节点的属性
 
 Start
 
@@ -35,6 +35,10 @@ SET n = row
 
 {} for properties
 
+* MATCH
+* CREATE
+* RETURN
+* 
 ```bash
 CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 })
 ```
@@ -101,6 +105,8 @@ MATCH (emil:Person {name:"Emil Eifrem"})
 OPTIONAL MATCH (emil)-[r]-()
 DELETE emil,r
 ```
+
+create nodes with constrants
 
 tutorial
 
