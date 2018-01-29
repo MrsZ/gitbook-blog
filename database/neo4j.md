@@ -1,7 +1,6 @@
 # Conceot
 
 * Nodes
-
 * labels
 * relationships
 * properties
