@@ -38,12 +38,14 @@ SET n = row
 * MATCH
 * CREATE
 * RETURN
+* WITH: pipe the result
 * ```bash
   CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 })
   ```
 * `CREATE` clause to create data
 
 * `()` parenthesis to indicate a node
+
 * `ee:Person` a variable 'ee' and label 'Person' for the new node
 * `{}`brackets to add properties to the node
 
@@ -106,6 +108,18 @@ DELETE emil,r
 ```
 
 create nodes with constraints
+
+```
+CREATE CONSTRAINT ON (flight:Flight) ASSERT flight.code IS UNIQUE;
+```
+
+iterator path
+
+6 hop
+
+```
+MATCH path = (london:City{name:'London'})-[:HAS_FLIGHT|FLYING_TO*0..6]->(melbourne:City{name:'Melbourne'}) RETURN path;
+```
 
 tutorial
 
