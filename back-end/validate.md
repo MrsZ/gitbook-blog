@@ -1,6 +1,6 @@
 validate function refer to joi
 
-
+value以object传入，其他均用args变参设置，如果最后一个是callback则最后执行
 
 ```js
 root.validate = function (value, ...args /*, [schema], [options], callback */) {
@@ -20,5 +20,5 @@ root.validate = function (value, ...args /*, [schema], [options], callback */) {
     };
 ```
 
-
+https://github.com/hapijs/joi/blob/v13.1.1/lib/index.js
 
