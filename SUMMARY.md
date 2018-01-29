@@ -25,6 +25,7 @@
 * Data Consistency
 * [ElasticSearch](database/elasticsearch.md)
 * [Neo4j](database/neo4j.md)
+  * [Data Model: Access Control](database/neo4j/data-model-access-control.md)
 * [GraphQL](database/graphql.md)
 * [DynamoDB](database/dynamodb.md)
 
