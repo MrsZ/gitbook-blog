@@ -38,12 +38,11 @@ SET n = row
 * MATCH
 * CREATE
 * RETURN
-* 
-```bash
-CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 })
-```
-
+* ```bash
+  CREATE (ee:Person { name: "Emil", from: "Sweden", klout: 99 })
+  ```
 * `CREATE` clause to create data
+
 * `()` parenthesis to indicate a node
 * `ee:Person` a variable 'ee' and label 'Person' for the new node
 * `{}`brackets to add properties to the node
@@ -106,7 +105,7 @@ OPTIONAL MATCH (emil)-[r]-()
 DELETE emil,r
 ```
 
-create nodes with constrants
+create nodes with constraints
 
 tutorial
 
