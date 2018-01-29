@@ -4,5 +4,9 @@
 
 [http://www.tonymarston.net/php-mysql/role-based-access-control.html](http://www.tonymarston.net/php-mysql/role-based-access-control.html)
 
-https://www.zhihu.com/question/20313385
+[https://www.zhihu.com/question/20313385](https://www.zhihu.com/question/20313385)
+
+http://www.blogjava.net/amigoxie/archive/2007/10/08/151086.html
+
+http://blog.csdn.net/liangyixin19800304/article/details/12426957
 
