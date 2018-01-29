@@ -2,5 +2,7 @@
 
 [http://www.vertabelo.com/blog/technical-articles/security-approaches-in-data-modeling-part-1-simple-access-control-to-a-small-data-model](http://www.vertabelo.com/blog/technical-articles/security-approaches-in-data-modeling-part-1-simple-access-control-to-a-small-data-model)
 
-http://www.tonymarston.net/php-mysql/role-based-access-control.html
+[http://www.tonymarston.net/php-mysql/role-based-access-control.html](http://www.tonymarston.net/php-mysql/role-based-access-control.html)
+
+https://www.zhihu.com/question/20313385
 
