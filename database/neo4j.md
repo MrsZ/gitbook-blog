@@ -1,3 +1,11 @@
+# Conceot
+
+* Nodes
+
+* labels
+* relationships
+* properties
+
 Start
 
 sandbox: [https://neo4j.com/sandbox-v2/](https://neo4j.com/sandbox-v2/)
@@ -97,5 +105,5 @@ DELETE emil,r
 
 tutorial
 
-https://neo4j.com/graphacademy/online-training/getting-started-graph-databases-using-neo4j/part-1/
+[https://neo4j.com/graphacademy/online-training/getting-started-graph-databases-using-neo4j/part-1/](https://neo4j.com/graphacademy/online-training/getting-started-graph-databases-using-neo4j/part-1/)
 
