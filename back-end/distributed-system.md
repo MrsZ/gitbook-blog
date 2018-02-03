@@ -93,8 +93,6 @@ public boolean unlock(String key) {
 }
 ```
 
-
-
 ## 基于Zookeeper
 
 基于zookeeper的临时有序节点
@@ -126,9 +124,15 @@ public boolean unlock() {
 }
 ```
 
-
-
 队列的效果更优于锁
 
 ![](/assets/producer_consumer.png)
+
+
+
+源码分析
+
+https://github.com/NetEase/chatofpomelo
+
+https://github.com/NetEase/pomelo/blob/master/lib/application.js
 
