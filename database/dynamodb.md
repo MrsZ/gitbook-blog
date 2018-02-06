@@ -19,3 +19,9 @@ DAX 可以用来作为DynamoDB的cache
 
 
 
+local test
+
+docker image
+
+https://hub.docker.com/r/cnadiminti/dynamodb-local/
+
