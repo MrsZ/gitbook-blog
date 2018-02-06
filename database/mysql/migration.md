@@ -18,8 +18,6 @@ node_modules/.bin/sequelize init
 
 config file : `config/config.json`
 
-
-
 generate migration file
 
 ```bash
@@ -37,8 +35,6 @@ undo migration
 ```bash
 node_modules/.bin/sequelize db:migrate:undo
 ```
-
-
 
 running seed
 
@@ -58,8 +54,26 @@ node_modules/.bin/sequelize db:seed:undo:all
 
 create seed
 
-```js
+```bash
+node_modules/.bin/sequelize seed:generate --name demo-user
+```
 
+```js
+'use strict';
+
+module.exports = {
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.bulkInsert('Users', [{
+        firstName: 'John',
+        lastName: 'Doe',
+        email: 'demo@demo.com'
+      }], {});
+  },
+
+  down: (queryInterface, Sequelize) => {
+    return queryInterface.bulkDelete('Users', null, {});
+  }
+};
 ```
 
 
