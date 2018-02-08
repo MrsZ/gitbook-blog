@@ -23,12 +23,16 @@ docker image
 
 [https://hub.docker.com/r/cnadiminti/dynamodb-local/](https://hub.docker.com/r/cnadiminti/dynamodb-local/)
 
-
-
 Throughput
 
 1. Read capacity unit: 4KB/sec
 2. Write capacity unit: 1KB/sec
+
+Operations
+
+* table operations
+* item operations
+* query and scan operations
 
 
 
