@@ -80,6 +80,9 @@
 * [Load Balancer](devops/load-balancer.md)
 * Consul
 * [SSH](devops/ssh.md)
+* Media Server
+  * Wowza
+  * [Azure Media Server](devops/azure-media-server.md)
 
 ## System Design
 
