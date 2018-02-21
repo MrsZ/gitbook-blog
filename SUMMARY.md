@@ -37,12 +37,13 @@
 ## Languages
 
 * [JavaScript/Node.js](languages/javascriptnodejs.md)
-  * ES6
+  * [ES6](front-end/es6.md)
   * ESLint
   * [TypeScript](front-end/typescript.md)
   * [Async/Await](front-end/asyncawait.md)
   * [Debug](front-end/debug.md)
   * [npm](front-end/npm.md)
+  * Promise
 
 ## Front-end
 
