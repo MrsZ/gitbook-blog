@@ -14,6 +14,12 @@ df -h
 
 df -hi
 
+check inodes place
+
+```
+du --inodes -xS
+```
+
 Clear system logs
 
 ```bash
