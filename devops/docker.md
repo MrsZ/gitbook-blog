@@ -1,3 +1,9 @@
+# Install Docker
+
+https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu
+
+# 
+
 # Logs
 
 docker logs
@@ -16,11 +22,9 @@ run global service which runs on every node.
 
 Manage docker through code \(Docker SDK for Python\)
 
-https://docker-py.readthedocs.io/en/stable/
+[https://docker-py.readthedocs.io/en/stable/](https://docker-py.readthedocs.io/en/stable/)
 
+ansible with docker
 
-
-ansible with docker 
-
-http://docs.ansible.com/ansible/latest/guide\_docker.html
+[http://docs.ansible.com/ansible/latest/guide\_docker.html](http://docs.ansible.com/ansible/latest/guide_docker.html)
 
