@@ -1,6 +1,6 @@
 # Install Docker
 
-https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu
+[https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu](https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu)
 
 # 
 
@@ -27,4 +27,12 @@ Manage docker through code \(Docker SDK for Python\)
 ansible with docker
 
 [http://docs.ansible.com/ansible/latest/guide\_docker.html](http://docs.ansible.com/ansible/latest/guide_docker.html)
+
+
+
+Generate cluster environment with few clicks: Rancher
+
+https://rancher.com/rancher/
+
+
 
