@@ -71,6 +71,7 @@
 * [validate](back-end/validate.md)
 * [WebRTC](back-end/webrtc.md)
 * [Real-time](back-end/real-time.md)
+  * [Deepstream](back-end/real-time/deepstream.md)
 
 ## Devops
 
