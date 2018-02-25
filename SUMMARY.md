@@ -44,6 +44,7 @@
   * [Debug](front-end/debug.md)
   * [npm](front-end/npm.md)
   * Promise
+  * [AWS SDK](front-end/aws-sdk.md)
 
 ## Front-end
 
@@ -77,6 +78,7 @@
 
 * [Overview](devops/overview.md)
 * [AWS](devops/aws.md)
+  * [IAM](devops/aws/iam.md)
 * [Consul](devops/consul.md)
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
