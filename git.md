@@ -34,8 +34,6 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 git remote set-url --add [--push] <name> <newurl>
 ```
 
-{% gist id="https://gist.github.com/SamyPesse/6ceb8cb8d531ffab75f0" %}{% endgist %}
-
 
 
 
