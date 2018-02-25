@@ -1,4 +1,4 @@
-# common errors
+# Common errors
 
 Your IP address \(172.17.0.1\) has been blocked
 
