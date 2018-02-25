@@ -88,7 +88,7 @@
 * Consul
 * [SSH](devops/ssh.md)
 * Media Server
-  * Wowza
+  * [Wowza](devops/wowza.md)
   * [Azure Media Server](devops/azure-media-server.md)
 
 ## System Design
