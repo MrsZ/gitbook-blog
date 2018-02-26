@@ -1,3 +1,17 @@
+# Concepts
+
+Wowza Streaming Engine
+
+Server type
+
+HTTP Server
+
+HTTP Edge Server
+
+HTTP Origin Server: can connect to CDN service like CloudFront
+
+# 
+
 # Common errors
 
 Your IP address \(172.17.0.1\) has been blocked
