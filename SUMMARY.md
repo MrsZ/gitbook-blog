@@ -79,7 +79,7 @@
 * [Overview](devops/overview.md)
 * [AWS](devops/aws.md)
   * [IAM](devops/aws/iam.md)
-  * S3
+  * [S3](devops/aws/s3.md)
 * [Consul](devops/consul.md)
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
