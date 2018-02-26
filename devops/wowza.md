@@ -20,6 +20,10 @@ solution: [http://trickntip.com/ip-address-blocked-wowza/](http://trickntip.com/
 
 config Server.xml, change `<IPWhiteList>127.0.0.1</IPWhiteList>` to `<IPWhiteList>*</IPWhiteList>,` if you want to specify your IP address then use a comma to seperate IPs like `<IPWhiteList>127.0.0.1,201.163.46.154</IPWhiteList>.`
 
+application can not be created with xml directly
+
+# 
+
 # Wowza RESTful API
 
 basic test
