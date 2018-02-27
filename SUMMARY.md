@@ -80,6 +80,7 @@
 * [AWS](devops/aws.md)
   * [IAM](devops/aws/iam.md)
   * [S3](devops/aws/s3.md)
+  * [Storage Gateway](devops/aws/storage-gateway.md)
 * [Consul](devops/consul.md)
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
