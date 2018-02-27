@@ -2,7 +2,10 @@ File Gateway
 
 Volume Gateway
 
-stored volumes
+* stored volumes
 
-cached volumes
+* cached volumes
+* Tape Gateway
+
+
 
