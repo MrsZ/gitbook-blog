@@ -5,7 +5,8 @@ Volume Gateway
 * stored volumes
 
 * cached volumes
-* Tape Gateway
+
+Gateway Virtual Tape Library \(VTL\)
 
 
 
