@@ -74,6 +74,7 @@
 * [Real-time](back-end/real-time.md)
   * [Deepstream](back-end/real-time/deepstream.md)
   * [Socket.IO](back-end/real-time/socketio.md)
+  * [GraphQL](back-end/real-time/graphql.md)
 
 ## Devops
 
