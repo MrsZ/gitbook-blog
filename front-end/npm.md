@@ -14,3 +14,9 @@ module_name: git+[ssh link]#{branch|tag}
 
 npm module的名字取决于private repo中package.json里面的名字，和这里的module\_name无关
 
+
+
+peer dependencies: 用于管理冲突依赖
+
+https://nodejs.org/en/blog/npm/peer-dependencies/
+
