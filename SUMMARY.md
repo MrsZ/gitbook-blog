@@ -84,6 +84,7 @@
   * [S3](devops/aws/s3.md)
   * [Storage Gateway](devops/aws/storage-gateway.md)
   * [VPC](devops/aws/vpc.md)
+  * [architecture](devops/aws/architecture.md)
 * [Consul](devops/consul.md)
 * [Docker](devops/docker.md)
 * [Linux Command](devops/linux-command.md)
