@@ -1,6 +1,6 @@
-vpc subnet 
+vpc subnet
 
-reserved address
+reserved address, use 10.0.00/24 as an example
 
 * `10.0.0.0`: Network address.
 
