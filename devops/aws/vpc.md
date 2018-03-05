@@ -14,3 +14,11 @@ reserved address, use 10.0.00/24 as an example
 
 ![](/assets/vpc_diagram.png)
 
+
+
+ACL
+
+ACL is stateless
+
+block IP addresses using ACL not security group
+
