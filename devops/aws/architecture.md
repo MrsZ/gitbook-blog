@@ -20,10 +20,8 @@ create api gateway, attach to vpc
 
 create route table
 
-* internal: use nat
+* internal: use nat gateway
 * external: use igw
 
 if needed, add peer connection to connect other vpc
-
-
 

@@ -12,5 +12,5 @@ reserved address, use 10.0.00/24 as an example
 
 * `10.0.0.255`: Network broadcast address. We do not support broadcast in a VPC, therefore we reserve this address.
 
-
+![](/assets/vpc_diagram.png)
 
