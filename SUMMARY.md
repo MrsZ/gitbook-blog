@@ -131,3 +131,7 @@
 
 ## AI
 
+## Case Studies
+
+* How Shutterfly migrated 10+ billion photos to the cloud
+
