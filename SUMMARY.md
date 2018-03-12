@@ -106,6 +106,8 @@
 * [Uber](system-design/uber.md)
 * [商品秒杀系统](system-design/shang-pin-miao-sha-xi-tong.md)
 * [基于ElasticSearch搜房网](system-design/ji-yu-elasticsearch-sou-fang-wang.md)
+* [Case Studies](system-design/case-studies.md)
+  * [How Shutterfly migrated 10+ billion photos to the cloud](system-design/case-studies/how-shutterfly-migrated-10+-billion-photos-to-the-cloud.md)
 
 ## Testing
 
@@ -132,6 +134,4 @@
 ## AI
 
 ## Case Studies
-
-* How Shutterfly migrated 10+ billion photos to the cloud
 
