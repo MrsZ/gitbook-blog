@@ -4,6 +4,8 @@ Plan: superfly migration
 
 难点： 迁移时间很长，在迁移的过程中，用户仍然在存储新的图片
 
+问题： 不需要cache inactive user
+
 Final result
 
 MaaS
