@@ -6,3 +6,9 @@ MIN_PORT=30000; MAX_PORT=30050; docker run -d --name licode -p 3000:3000 -p $MIN
 
 
 
+
+
+Roles 
+
+http://lynckia.com/licode/roles.html
+
