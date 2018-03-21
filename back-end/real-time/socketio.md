@@ -18,5 +18,13 @@ how to scale [https://socket.io/docs/using-multiple-nodes/](https://socket.io/do
 2. join之后检查是否为moderator, 根据是否为moderator注册不同的listener，之后不再检查，查询次数为N
 3. 分为两个room，分别只包含moderator和所有用户，当用户加入moderator room之后注册所有moderator的listener，查询次数为M
 
+send messages to a specific socket
+
+```
+io.sockets.connected[socketId].emit(channel, content)
+
+socket.to(socketId).emit(channel, content)
+```
+
 
 
