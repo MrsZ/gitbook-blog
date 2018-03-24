@@ -38,12 +38,12 @@
 
 * [JavaScript/Node.js](languages/javascriptnodejs.md)
   * [ES6](front-end/es6.md)
-  * ESLint
+  * [ESLint](front-end/eslint.md)
   * [TypeScript](front-end/typescript.md)
   * [Async/Await](front-end/asyncawait.md)
   * [Debug](front-end/debug.md)
   * [npm](front-end/npm.md)
-  * Promise
+  * [Promise](front-end/promise.md)
   * [AWS SDK](front-end/aws-sdk.md)
 
 ## Front-end
