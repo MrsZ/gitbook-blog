@@ -9,7 +9,6 @@ function () {
   return promiseA
   .then(([]) => {}) // 会在这里报错define
 }
-
 ```
 
 
