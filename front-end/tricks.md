@@ -9,7 +9,7 @@ promise easy load
 redis hmset pass params
 
 ```js
-hmset(roomId, options, initValue = 0) {
+    hmset(roomId, options, initValue = 0) {
       const k = key.vote.options(roomId);
       const optionArr = _.keys(options);
       const params = [];
