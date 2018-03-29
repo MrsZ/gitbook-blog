@@ -45,6 +45,7 @@
   * [npm](front-end/npm.md)
   * [Promise](front-end/promise.md)
   * [AWS SDK](front-end/aws-sdk.md)
+  * [tricks](front-end/tricks.md)
 
 ## Front-end
 
