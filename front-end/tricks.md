@@ -1,7 +1,7 @@
 promise easy load
 
 ```js
-get(key, dbPromise, ...params) {
+  get(key, dbPromise, ...params) {
     return new Promise((resolve, reject) => {
       const redisTTL = 2400; // sec
       const ramTTL = 1000; // microsec
