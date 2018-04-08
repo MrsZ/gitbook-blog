@@ -23,7 +23,7 @@
 * [Data Partitioning](database/data-partitioning.md)
   * [Shard](database/data-partitioning/shard.md)
   * [Index Table](database/data-partitioning/index-table.md)
-* Data Consistency
+* [Data Consistency](database/data-consistency.md)
 * [ElasticSearch](database/elasticsearch.md)
 * [Neo4j](database/neo4j.md)
   * [Data Model: Access Control](database/neo4j/data-model-access-control.md)
