@@ -34,6 +34,15 @@ numbers = makeNumbers()
 numbers.next() // 1
 numbers.next() // 2
 numbers.next() // 3
+
+// function generatiors
+function* numbers() {
+  let n = 0
+  while(true) {
+    n += 1
+    yield n 
+  }
+}
 ```
 
 
