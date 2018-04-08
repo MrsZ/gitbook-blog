@@ -18,5 +18,23 @@ add1(2) // => 3
 add1(10) // => 11
 ```
 
+Lazy Evaluation
+
+next\(\)
+
+```js
+const makeNumbers = () => {
+  let n = 0
+  return {next: () => {
+    n += 1
+    return n
+  }
+}
+numbers = makeNumbers()
+numbers.next() // 1
+numbers.next() // 2
+numbers.next() // 3
+```
+
 
 
