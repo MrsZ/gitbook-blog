@@ -38,8 +38,6 @@ mapActions
 
 use function as getters
 
-
-
 # 权限控制
 
 1. 路由权限
@@ -61,13 +59,9 @@ let hashMenus = {
 
 然后根据筛选情况，生成路由
 
-
-
 视图控制
 
 通过设置Meta data实现
-
-
 
 请求控制
 
@@ -94,4 +88,33 @@ implement user cache
 ![](/assets/Pasted image at 2018_01_04 08_06 PM.png)
 
 debounce
+
+
+
+
+
+# CSS
+
+```html
+<style scoped>
+</style>
+```
+
+scope
+
+in vue-loader v12.2.0, it support deep selectors
+
+https://github.com/vuejs/vue-loader/releases/tag/v12.2.0
+
+```css
+.foo >>> .bar { color: red; }
+```
+
+will compile to
+
+```css
+.foo[data-v-xxxxxxx] .bar { color: red; }
+```
+
+
 
