@@ -89,10 +89,6 @@ implement user cache
 
 debounce
 
-
-
-
-
 # CSS
 
 ```html
@@ -104,7 +100,7 @@ scope
 
 in vue-loader v12.2.0, it support deep selectors
 
-https://github.com/vuejs/vue-loader/releases/tag/v12.2.0
+[https://github.com/vuejs/vue-loader/releases/tag/v12.2.0](https://github.com/vuejs/vue-loader/releases/tag/v12.2.0)
 
 ```css
 .foo >>> .bar { color: red; }
