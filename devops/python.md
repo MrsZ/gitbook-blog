@@ -14,7 +14,7 @@ def login_ssh_passwd(port="", user="", host="", passwd=""):
             ssh.expect('password: ')
             ssh.sendline(passwd)
         index = ssh.expect(['#', pexpect.EOF, pexpect.TIMEOUT])
-        
+
         if index == 0:
             print "logging in as root!"
         elif index == 1:
@@ -25,5 +25,5 @@ def login_ssh_passwd(port="", user="", host="", passwd=""):
         print "wrong parameters!"
 ```
 
-
+paramiko 专门用于ssh连接的Module
 
