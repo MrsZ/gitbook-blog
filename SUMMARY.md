@@ -103,6 +103,7 @@
   * [Azure Media Server](devops/azure-media-server.md)
   * [ffmpeg](devops/ffmpeg.md)
 * [HTTPS](devops/https.md)
+* [Python](devops/python.md)
 
 ## System Design
 
