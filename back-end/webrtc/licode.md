@@ -22,6 +22,12 @@ otherwise will show certificate name does not match
 
 # Build Image Base on Official Image
 
+refer to ezlicode's Dockerfile
+
+https://github.com/cracker0dks/ezLicode
+
+
+
 # Solution for Large Scale
 
 master slave architecture
@@ -32,5 +38,5 @@ slave for subscribing videos
 
 there should be one bridge to forward video stream from master node to slave node.
 
-
+![](/assets/licode_scale_master_slave.png)
 
