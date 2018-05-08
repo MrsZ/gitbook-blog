@@ -20,11 +20,13 @@ config.erizoController.hostname
 
 otherwise will show certificate name does not match
 
-
-
 # Build Image Base on Official Image
 
 # Solution for Large Scale
+
+master slave architecture
+
+
 
 
 
