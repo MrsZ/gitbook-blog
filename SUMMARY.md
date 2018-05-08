@@ -79,6 +79,7 @@
   * [Socket.IO](back-end/real-time/socketio.md)
   * [GraphQL](back-end/real-time/graphql.md)
 * [sequelize](back-end/sequelize.md)
+* [Video](back-end/video.md)
 
 ## sequelize
 
