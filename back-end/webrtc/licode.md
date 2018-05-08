@@ -33,8 +33,6 @@ customize licode init shell script
 2. change licode\_config.js file
    1. for js file, we can reassign value to object
 
-
-
 # Solution for Large Scale
 
 master slave architecture
@@ -45,5 +43,13 @@ slave for subscribing videos
 
 there should be one bridge to forward video stream from master node to slave node.
 
-![](/assets/licode_scale_master_slave.png)
+![](/assets/licode_scale_master_slave.png)Bridge
+
+use puppeteer to open a browser as bridge
+
+Load balancer
+
+Licode server's info should be stored in database
+
+
 
