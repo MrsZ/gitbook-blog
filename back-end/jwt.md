@@ -15,7 +15,7 @@
 
 add jwt's \(aud, jti\) pair into blacklist to avoid replay attack
 
-we can blacklist a jti to prevent a token being used more t han X times
+we can blacklist a jti to prevent a token being used more than X times
 
 [https://auth0.com/blog/blacklist-json-web-token-api-keys/](https://auth0.com/blog/blacklist-json-web-token-api-keys/)
 
