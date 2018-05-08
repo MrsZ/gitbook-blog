@@ -24,7 +24,14 @@ otherwise will show certificate name does not match
 
 refer to ezlicode's Dockerfile
 
-https://github.com/cracker0dks/ezLicode
+[https://github.com/cracker0dks/ezLicode](https://github.com/cracker0dks/ezLicode)
+
+customize licode init shell script
+
+1. set service id and service key
+   1. service Id and service key are stored in the MongoDB  
+2. change licode\_config.js file
+   1. for js file, we can reassign value to object
 
 
 
