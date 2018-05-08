@@ -17,7 +17,20 @@ add jwt's \(aud, jti\) pair into blacklist to avoid replay attack
 
 Multi-tenancy
 
+the secret can vary based on the JWT issuer
+
 Refresh token
 
 [https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
+
+
+
+# Useful library
+
+express-jwt: https://github.com/auth0/express-jwt
+
+* multi-tenancy
+* revoked tokens
+
+
 
