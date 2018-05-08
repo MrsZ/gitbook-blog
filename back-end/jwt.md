@@ -1,4 +1,6 @@
-Fields
+# Basic Knowledge
+
+## Fields
 
 [http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html\#issDef](http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#issDef)
 
@@ -9,25 +11,23 @@ Fields
 * iat
 * sub
 
-Revoke tokens
+## Revoke tokens
 
 add jwt's \(aud, jti\) pair into blacklist to avoid replay attack
 
 [https://auth0.com/blog/blacklist-json-web-token-api-keys/](https://auth0.com/blog/blacklist-json-web-token-api-keys/)
 
-Multi-tenancy
+## Multi-tenancy
 
 the secret can vary based on the JWT issuer
 
-Refresh token
+## Refresh token
 
 [https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
 
-
-
 # Useful library
 
-express-jwt: https://github.com/auth0/express-jwt
+express-jwt: [https://github.com/auth0/express-jwt](https://github.com/auth0/express-jwt)
 
 * multi-tenancy
 * revoked tokens
