@@ -33,6 +33,12 @@ customize licode init shell script
 2. change licode\_config.js file
    1. for js file, we can reassign value to object
 
+use Tag to identify Licode's version
+
+```
+FROM lynckia/licode:04d9c0e
+```
+
 # Solution for Large Scale
 
 master slave architecture
@@ -50,6 +56,4 @@ use puppeteer to open a browser as bridge
 Load balancer
 
 Licode server's info should be stored in database
-
-
 
