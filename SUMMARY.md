@@ -16,6 +16,10 @@
 * [Git](git.md)
 * [HTTP](http.md)
 
+## Management
+
+* [Intro](management/intro.md)
+
 ## Database
 
 * [MySQL](database/mysql.md)
