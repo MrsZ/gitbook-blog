@@ -6,3 +6,7 @@ broadcast, 有些消息需要广播，根据消息可能需要调用其他API，
 
 
 
+
+
+Create document for websocket
+
