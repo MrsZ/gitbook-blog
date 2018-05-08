@@ -26,7 +26,11 @@ otherwise will show certificate name does not match
 
 master slave architecture
 
+master for publishing videos
 
+slave for subscribing videos
+
+there should be one bridge to forward video stream from master node to slave node.
 
 
 
