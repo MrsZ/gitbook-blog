@@ -8,11 +8,9 @@ Roles
 
 [http://lynckia.com/licode/roles.html](http://lynckia.com/licode/roles.html)
 
-
-
 # set HTTPS
 
-http://lynckia.com/licode/nginx-dep.html
+[http://lynckia.com/licode/nginx-dep.html](http://lynckia.com/licode/nginx-dep.html)
 
 in licode\_config, should set
 
@@ -21,4 +19,12 @@ config.erizoController.hostname
 ```
 
 otherwise will show certificate name does not match
+
+
+
+# Build Image Base on Official Image
+
+# Solution for Large Scale
+
+
 
