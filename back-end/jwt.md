@@ -27,7 +27,7 @@ the secret can vary based on the JWT issuer
 
 [https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
 
-https://auth0.com/docs/tokens/refresh-token/current
+[https://auth0.com/docs/tokens/refresh-token/current](https://auth0.com/docs/tokens/refresh-token/current)
 
 # Useful library
 
