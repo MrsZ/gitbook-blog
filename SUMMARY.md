@@ -146,5 +146,9 @@
 
 ## AI
 
+## Mobile
+
+* [ios purchase](management/ios-purchase.md)
+
 ## Case Studies
 
