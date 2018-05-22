@@ -11,7 +11,10 @@ Subscription purchase
 Purchase Flow
 
 * Product Request
-* Put request into Payment 
+* Put Request into Payment Queue
+* Create SKProduct
+* Updated Transactions
+* Start Downloads if Required
 
 
 
