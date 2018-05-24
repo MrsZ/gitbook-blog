@@ -16,8 +16,6 @@ Purchase Flow
 * Updated Transactions
 * Start Downloads if Required
 
-
-
 Server Validation
 
 * Send receipt from app to your server
