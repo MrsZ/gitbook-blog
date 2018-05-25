@@ -152,3 +152,7 @@
 
 ## Case Studies
 
+## Hands-on Lab
+
+* [Streaming Video with Elastic Transcoder, S3, and CloudFront](management/streaming-video-with-elastic-transcoder-s3-and-cloudfront.md)
+
