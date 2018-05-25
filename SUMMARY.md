@@ -110,6 +110,7 @@
   * [ffmpeg](devops/ffmpeg.md)
 * [HTTPS](devops/https.md)
 * [Python](devops/python.md)
+* [Skills](devops/skills.md)
 
 ## System Design
 
