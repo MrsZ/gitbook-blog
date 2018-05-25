@@ -155,4 +155,5 @@
 ## Hands-on Lab
 
 * [Streaming Video with Elastic Transcoder, S3, and CloudFront](management/streaming-video-with-elastic-transcoder-s3-and-cloudfront.md)
+* [EC2 Enhanced Networking Lab](management/ec2-enhanced-networking-lab.md)
 
