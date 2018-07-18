@@ -6,3 +6,5 @@ Babel
 
 ESLint
 
+serverless
+
