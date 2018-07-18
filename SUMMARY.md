@@ -85,6 +85,7 @@
 * [sequelize](back-end/sequelize.md)
 * [Video](back-end/video.md)
 * [JWT](back-end/jwt.md)
+* [Build](back-end/build.md)
 
 ## sequelize
 
